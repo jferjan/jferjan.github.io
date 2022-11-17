@@ -1,0 +1,1 @@
+docker build -t jferjan/mkdocs-material:1 .

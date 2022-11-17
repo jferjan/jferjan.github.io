@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  mkdocs:
+    container_name: mkdocs_material
+    image: jferjan/mkdocs-material:1
+    ports:
+      - '8000:8000'
+    restart: unless-stopped
+    environment:
+      TZ: "Europe/Ljubljana"
+    volumes:
+      - .:/docs
+    command: 
+      - serve
+      - "--dev-addr=0.0.0.0:8000"

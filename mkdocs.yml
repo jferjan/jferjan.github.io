@@ -1,0 +1,27 @@
+site_name: ferjan.net
+
+nav:
+    - Naslovnica: index.md
+    - Moja pot: moja_pot.md
+    - Zapisi: zapisi.md
+
+theme:
+  name: material
+  language: sl
+  features:  
+    - navigation.tabs # horizontalna navigacija
+    # - navigation.tabs.sticky  
+    - navigation.top # back to top - neprevedeno v slo
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Preklopi na temni način
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Preklopi na svetli način
+
+plugins:
+  - tags:
+      tags_file: zapisi.md
