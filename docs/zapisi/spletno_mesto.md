@@ -87,6 +87,9 @@ V osnovi je struktura MKDocs sila preprosta. Ena konfiguracijska datoteka **mkdo
 ~\GitHub\jferjan.github.io main ❯
 
     git add --all
+    git commit -m "Dodane spremebe spletnega mesta"
+    git remote rm origin # Če bomo porivali kodo v drug repo kot jferjan.github.io
+    git remote add origin URL_TO_GITHUB_REPO # Če bomo porivali kodo v drug repo kot jferjan.github.io
     git push -u origin main
 
 ### Zgeneriraj statično spletno mesto in ga porini v GitHub repozitorij v vejo gh-pages
