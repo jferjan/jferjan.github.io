@@ -1,4 +1,3 @@
-#še ne dela oz ni stestirano
 FROM squidfunk/mkdocs-material
 
 RUN pip install --no-cache-dir \
