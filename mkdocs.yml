@@ -2,7 +2,6 @@ site_name: ferjan.net
 
 nav:
     - Naslovnica: index.md
-    - Moja pot: moja_pot.md
     - Zapisi: zapisi.md
 
 theme:

@@ -2,18 +2,10 @@
 
 ![Jaka](img/jaka.png)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Moja pot
 
-## Commands
+2007 sem na Ekonomski fakulteti diplomiral in postal univerzitetni diplomirani ekonomist. Šolal sem se po usmerjenem programu »poslovna informatika«. Med leti 2000 in 2005 sem v Službi Vlade RS za evropske zadeve opravljal delo informatika v Službi za informacijsko podporo. Od leta 2003 dalje sem si v družinskem podjetju Gaia plus, turistična agencija, d.o.o., pridobil izkušnje na področju turizma in informatike. Od 12. 11. 2007 sem zaposlen na Ministrstvu RS za javno upravo, kjer delujem na področju storitev spletnega gostovanja.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## LinkedIN profil
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Za več informacij si oglejte moj [LinkedIN profil](https://www.linkedin.com/in/ferjan/). 

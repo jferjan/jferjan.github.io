@@ -1,6 +1,6 @@
 ---
 tags:
-  - IT
+  - test
 ---
 
-Nekaj na temo IT. TTT
+Hello world.

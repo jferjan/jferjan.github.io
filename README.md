@@ -4,7 +4,7 @@
 * `docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 new [dir-name]` - Create a new project.
 * `docker compose up -d` - Start the live-reloading docs server.
 * `docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 build` - Build the documentation site.
-* `docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 gh-deploy` - Deploy to GitHub
+* `docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 gh-deploy` - Deploy to GitHub gh-pages branch
 * `docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 -h` - Print help.
 
 # Project layout
