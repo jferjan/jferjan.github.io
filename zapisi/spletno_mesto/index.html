@@ -456,6 +456,9 @@ docs/
 <h3 id="dodaj-datoteke-in-jih-porini-v-main-vejo-repozitorija">Dodaj datoteke in jih porini v main vejo repozitorija</h3>
 <p>~\GitHub\jferjan.github.io main ❯</p>
 <pre><code>git add --all
+git commit -m "Dodane spremebe spletnega mesta"
+git remote rm origin # Če bomo porivali kodo v drug repo kot jferjan.github.io
+git remote add origin URL_TO_GITHUB_REPO # Če bomo porivali kodo v drug repo kot jferjan.github.io
 git push -u origin main
 </code></pre>
 <h3 id="zgeneriraj-staticno-spletno-mesto-in-ga-porini-v-github-repozitorij-v-vejo-gh-pages">Zgeneriraj statično spletno mesto in ga porini v GitHub repozitorij v vejo gh-pages</h3>
