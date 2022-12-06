@@ -11,6 +11,9 @@ theme:
     - navigation.tabs # horizontalna navigacija
     # - navigation.tabs.sticky  
     - navigation.top # back to top - neprevedeno v slo
+    - search.suggest
+    - search.highlight
+
   palette:
     - scheme: default
       toggle:
@@ -21,6 +24,39 @@ theme:
         icon: material/toggle-switch
         name: Preklopi na svetli način
 
+markdown_extensions:
+
+  # Python Markdown
+  - abbr # https://squidfunk.github.io/mkdocs-material/reference/tooltips/#adding-abbreviations
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - attr_list # https://squidfunk.github.io/mkdocs-material/reference/buttons/
+  - def_list # https://squidfunk.github.io/mkdocs-material/reference/lists/#using-definition-lists
+  - footnotes # https://squidfunk.github.io/mkdocs-material/reference/footnotes/#adding-footnote-references
+  - md_in_html # https://squidfunk.github.io/mkdocs-material/reference/images/
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.details # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#collapsible-blocks
+  - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#using-icons
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      #anchor_linenums: true
+      #linenums: true
+  - pymdownx.inlinehilite # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#highlighting-inline-code-blocks
+  - pymdownx.snippets
+  - pymdownx.keys # https://squidfunk.github.io/mkdocs-material/reference/formatting/#adding-keyboard-keys
+  #- pymdownx.mark
+  #- pymdownx.smartsymbols
+  - pymdownx.superfences
+  #- pymdownx.tabbed:
+  #    alternate_style: true
+  - pymdownx.tasklist: # https://squidfunk.github.io/mkdocs-material/reference/lists/#using-task-lists
+      custom_checkbox: true
+  - pymdownx.tilde # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#caret-mark-tilde
+
 plugins:
   - tags:
       tags_file: zapisi.md
+  - search
