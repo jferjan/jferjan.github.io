@@ -7,19 +7,6 @@ tags:
 
 Skripta vsake štiri minute simulira vklop/izklop scrool locka. Ob delovanju piše log na stdout, da vidimo da deluje. Delovanje se vidi tudi po kratkem utripu scrool-lock lučke vsake 4 minute.
 
-[Subscribe to our newsletter](#){ .md-button .md-button--primary }
-
-*[HTML]: Hyper Text Markup Language
-
-Testiram HTML jezik
-
-???+ danger
-    
-    123dasda  
-    testiram note
-
-        scp sh
-
 ## 1. Pripravi skripto
 
 Naredi si datoteko (skripto) `nosleep.ps1` z vsebino:
@@ -83,11 +70,12 @@ Poženi skripto z ukazom:
 
 ## 4. Bližnjica za zagon skripte
 
-Namesto korakov 2. in 3. si lahko narediš bližnjico
+Namesto korakov 2. in 3. si lahko narediš bližnjico.
 
 Za cilj bljižnice navedi:
 
     C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -ExecutionPolicy Bypass -File C:\Users\username\NoSleep\nosleep.ps1
 
-  > Nastavi ustrezno pot do datoteke powershell.exe
-  > Nastavi ustrezno pot do datoteke nosleep.ps1
+!!! note
+
+    Nastavi ustrezno pot do datoteke `powershell.exe` in `nosleep.ps1`.
