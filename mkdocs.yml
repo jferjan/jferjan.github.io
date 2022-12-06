@@ -59,4 +59,5 @@ markdown_extensions:
 plugins:
   - tags:
       tags_file: zapisi.md
-  - search
+  - search:
+      lang: en
