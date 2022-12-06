@@ -132,6 +132,41 @@
     
     
     
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Išči" placeholder="Išči" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Iskanje">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Počisti" aria-label="Počisti" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializacija iskanja
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
     
   </nav>
   
@@ -307,43 +342,43 @@
 
 
 
-<h1 id="si-zelis-imeti-svoj-ca-in-ustvarjati-lastne-self-signed-certifikate-za-lokalne-domenske-naslove">Si želiš imeti svoj CA in ustvarjati lastne (self-signed) certifikate za lokalne domenske naslove?</h1>
+<h1 id="si-zelis-imeti-svoj-ca-in-ustvarjati-lastne-self-signed-certifikate-za-lokalne-domenske-naslove">Si želiš imeti svoj CA in ustvarjati lastne (self-signed) certifikate za lokalne domenske naslove?<a class="headerlink" href="#si-zelis-imeti-svoj-ca-in-ustvarjati-lastne-self-signed-certifikate-za-lokalne-domenske-naslove" title="Permanent link">&para;</a></h1>
 <p>Spodaj opisujem kratek primer kako sem naredil lastni CA in ustvaril wildcard certifikat za *.ferjan.local.</p>
-<h2 id="ustvari-svoj-ca">Ustvari svoj CA</h2>
+<h2 id="ustvari-svoj-ca">Ustvari svoj CA<a class="headerlink" href="#ustvari-svoj-ca" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p>Ustvari RSA ključ <strong>ca-key.pem</strong></p>
-<pre><code>sudo openssl genrsa -aes256 -out ca-key.pem 4096
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo openssl genrsa -aes256 -out ca-key.pem 4096
+</code></pre></div>
 <blockquote>
 <p>Izberi močno geslo in si ga varno shrani</p>
 </blockquote>
 </li>
 <li>
 <p>Generiraj javni CA certifikat <strong>ca.pem</strong> (z veljavnostjo 10 let). </p>
-<pre><code>sudo openssl req -new -x509 -sha256 -days 3650 -key ca-key.pem -out ca.pem
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo openssl req -new -x509 -sha256 -days 3650 -key ca-key.pem -out ca.pem
+</code></pre></div>
 <blockquote>
 <p>Za CN sem napisal "ferjan", ostalo pustim prazno.</p>
 </blockquote>
 </li>
 </ol>
-<h2 id="ustvari-certifikat-s-svojim-ca">Ustvari certifikat (s svojim CA)</h2>
+<h2 id="ustvari-certifikat-s-svojim-ca">Ustvari certifikat (s svojim CA)<a class="headerlink" href="#ustvari-certifikat-s-svojim-ca" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p>Najprej ustvarimo RSA ključ <strong>cert-key.pem</strong></p>
-<pre><code>sudo openssl genrsa -out cert-key.pem 4096
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo openssl genrsa -out cert-key.pem 4096
+</code></pre></div>
 </li>
 <li>
 <p>Ustvarimo zahtevek za podpis potrdila <strong>cert.csr</strong> (Certificate Signing Request (CSR))</p>
-<pre><code>sudo openssl req -new -sha256 -subj "/CN=ferjan" -key cert-key.pem -out cert.csr
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo openssl req -new -sha256 -subj &quot;/CN=ferjan&quot; -key cert-key.pem -out cert.csr
+</code></pre></div>
 </li>
 <li>
 <p>ustvarimo datoteko <strong>extfile.cnf</strong> z vsemi SAN imeni (Subject Alternative Name)</p>
-<pre><code>echo "subjectAltName=DNS:*.ferjan.local" | sudo tee -a extfile.cnf
-</code></pre>
+<div class="highlight"><pre><span></span><code>echo &quot;subjectAltName=DNS:*.ferjan.local&quot; | sudo tee -a extfile.cnf
+</code></pre></div>
 <blockquote>
 <p>Dodamo lahko tudi več SAN imen, in/ali IP naslovov.</p>
 <p>echo "subjectAltName=DNS:your-dns.record,IP:257.10.10.1" | sudo tee -a extfile.cnf</p>
@@ -351,30 +386,30 @@
 </li>
 <li>
 <p>V <strong>extfile.cnf</strong> iz prejšnje točke dodamo informacijo, da je certifikat namenjen za avtentikacijo strežnika</p>
-<pre><code>echo "extendedKeyUsage = serverAuth" | sudo tee -a extfile.cnf
-</code></pre>
+<div class="highlight"><pre><span></span><code>echo &quot;extendedKeyUsage = serverAuth&quot; | sudo tee -a extfile.cnf
+</code></pre></div>
 </li>
 <li>
 <p>Naredimo certifikat <strong>cert.pem</strong> (z veljavnostjo 10 let)</p>
-<pre><code>sudo openssl x509 -req -sha256 -days 3650 -in cert.csr -CA ca.pem -CAkey ca-key.pem -out cert.pem -extfile extfile.cnf -CAcreateserial
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo openssl x509 -req -sha256 -days 3650 -in cert.csr -CA ca.pem -CAkey ca-key.pem -out cert.pem -extfile extfile.cnf -CAcreateserial
+</code></pre></div>
 </li>
 <li>
 <p>Naderimo fullchain certifikat <strong>fullchain.pem</strong></p>
-<pre><code>cat cert.pem | sudo tee -a fullchain.pem
+<div class="highlight"><pre><span></span><code>cat cert.pem | sudo tee -a fullchain.pem
 cat ca.pem | sudo tee -a fullchain.pem
-</code></pre>
+</code></pre></div>
 </li>
 </ol>
 <blockquote>
 <p>Fullchain certifikat ni nič drugega kot združitev wildcard certifikata *ferjan.local s certifikatom CA. </p>
 </blockquote>
-<h2 id="dodaj-ca-med-zaupanje-vredne-ca-je">Dodaj CA med zaupanje vredne CA-je</h2>
+<h2 id="dodaj-ca-med-zaupanje-vredne-ca-je">Dodaj CA med zaupanje vredne CA-je<a class="headerlink" href="#dodaj-ca-med-zaupanje-vredne-ca-je" title="Permanent link">&para;</a></h2>
 <p>Če želimo, da je certifikat označen kot zaupanja vreden je potrebno zaupati CA-ju, ki ga je izdal.
 V ta namen dodamo certifikat CA v svoj brskalnik ali v svoj OS.</p>
 <p>Primer uvoza CA certifikata v MS Windows:</p>
-<pre><code>    Import-Certificate -FilePath "~\CA\ca.pem" -CertStoreLocation Cert:\LocalMachine\Root
-</code></pre>
+<div class="highlight"><pre><span></span><code>    Import-Certificate -FilePath &quot;~\CA\ca.pem&quot; -CertStoreLocation Cert:\LocalMachine\Root
+</code></pre></div>
 <blockquote>
 <p>Powershell je potrebno zagnati kot admin<br />
 Pod FilePath je potrebno navesti pot do CA certifikata</p>
@@ -421,7 +456,7 @@ Pod FilePath je potrebno navesti pot do CA certifikata</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Kopirano v odlo\u017ei\u0161\u010de", "clipboard.copy": "Kopiraj v odlo\u017ei\u0161\u010de", "search.config.lang": "sl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "I\u0161\u010di", "search.result.more.one": "\u0160e 1 na tej strani", "search.result.more.other": "\u0160e # na tej strani", "search.result.none": "Ni zadetkov", "search.result.one": "1 zadetek", "search.result.other": "# zadetkov", "search.result.placeholder": "Vpi\u0161i iskalni niz", "search.result.term.missing": "Manjka", "select.version.title": "Izberi razli\u010dico"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Kopirano v odlo\u017ei\u0161\u010de", "clipboard.copy": "Kopiraj v odlo\u017ei\u0161\u010de", "search.config.lang": "sl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "I\u0161\u010di", "search.result.more.one": "\u0160e 1 na tej strani", "search.result.more.other": "\u0160e # na tej strani", "search.result.none": "Ni zadetkov", "search.result.one": "1 zadetek", "search.result.other": "# zadetkov", "search.result.placeholder": "Vpi\u0161i iskalni niz", "search.result.term.missing": "Manjka", "select.version.title": "Izberi razli\u010dico"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>

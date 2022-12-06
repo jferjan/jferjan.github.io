@@ -132,6 +132,41 @@
     
     
     
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Išči" placeholder="Išči" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Iskanje">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Počisti" aria-label="Počisti" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializacija iskanja
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
     
   </nav>
   
@@ -390,15 +425,15 @@
 
 
 
-<h1 id="potrebujes-brezplacno-spletno-mesto">Potrebuješ brezplačno spletno mesto?</h1>
+<h1 id="potrebujes-brezplacno-spletno-mesto">Potrebuješ brezplačno spletno mesto?<a class="headerlink" href="#potrebujes-brezplacno-spletno-mesto" title="Permanent link">&para;</a></h1>
 <p>Ja vem, naslov je clickbait, danes ni nič brezplačno. Pa vseeno, tale recept za spletno mesto se precej približa temu. Vse kar moraš investirati je nekaj časa, ki pa si ga lahko bistveno skrajšaš z napotki v tem zapisu. V kolikor želiš spletno mesto gostovati na lastni domeni je strošek še registracija in gostovanje domene, če pa ti ustreza gostovanje na naslovu <strong>username.github.io</strong> pa tudi ta strošek odpade. </p>
-<h2 id="uporabljena-tehnologija">Uporabljena tehnologija</h2>
+<h2 id="uporabljena-tehnologija">Uporabljena tehnologija<a class="headerlink" href="#uporabljena-tehnologija" title="Permanent link">&para;</a></h2>
 <ul>
 <li>GitHub Pages - Zastonj spletno gostovanje enga statičnega spletnega mesta. Možnost gostovanja na lastni domeni. Brezplačen certifikat.</li>
 <li>MKDocs material - Generator statičnega spletnega mesta z dodano meterial design predlogo</li>
 <li>Docker - Okolje za delo z vsebniki.</li>
 </ul>
-<h2 id="namenmotivacija">Namen/Motivacija</h2>
+<h2 id="namenmotivacija">Namen/Motivacija<a class="headerlink" href="#namenmotivacija" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Preizkusiti GitHub Pages</li>
 <li>Preizkusiti MKDocs</li>
@@ -406,7 +441,7 @@
 <li>Pričeti uporabljati GitHub </li>
 <li>Vzpostaviti spletno prisotnost</li>
 </ul>
-<h2 id="kaj-potrebujes">Kaj potrebuješ</h2>
+<h2 id="kaj-potrebujes">Kaj potrebuješ<a class="headerlink" href="#kaj-potrebujes" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Račun na GitHub</li>
 <li>Git commandline klienta. Npr. <a href="https://gitforwindows.org/">Git for Windows</a></li>
@@ -414,62 +449,62 @@
 <li>Vsebino repozitorija https://github.com/jferjan/jferjan.github.io.git</li>
 <li>Poznavanje osnov dela z Docker vsebniki (mogoče gre tudi brez tega).</li>
 </ul>
-<h2 id="vzpostavitev">Vzpostavitev</h2>
-<h3 id="naredi-access-token-ki-se-uporablja-namesto-github-gesla">Naredi access token, ki se uporablja namesto github gesla</h3>
+<h2 id="vzpostavitev">Vzpostavitev<a class="headerlink" href="#vzpostavitev" title="Permanent link">&para;</a></h2>
+<h3 id="naredi-access-token-ki-se-uporablja-namesto-github-gesla">Naredi access token, ki se uporablja namesto github gesla<a class="headerlink" href="#naredi-access-token-ki-se-uporablja-namesto-github-gesla" title="Permanent link">&para;</a></h3>
 <p>V svojem GitHub računu pojdi na:
 <strong>Settings</strong> =&gt; <strong>Developer Settings</strong> =&gt; <strong>Personal Access Tokens</strong> =&gt; <strong>Tokens (classic)</strong> =&gt; <strong>Generate new token</strong> =&gt; Vnesi geslo in izpolni formo =&gt; <strong>Generate token</strong> =&gt; Skopiraj generirani Token (Žeton), bo v obliki kot npr. ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta</p>
 <p>Pri izpolnjevanju forme določiš obdobje veljavnosti in obseg pravic, ki jih bo imel ta žeton.
 Pri določanju obsega pravic sem bil malo zmeden, ker nisem razumel vsega. Izbral sem <strong>repo</strong> in <strong>project</strong>.</p>
-<h3 id="posodobi-poverilnice-na-svojem-klientu">Posodobi poverilnice na svojem klientu</h3>
+<h3 id="posodobi-poverilnice-na-svojem-klientu">Posodobi poverilnice na svojem klientu<a class="headerlink" href="#posodobi-poverilnice-na-svojem-klientu" title="Permanent link">&para;</a></h3>
 <p>Ko sem vzpostavljal zadevo sem bil na Windows klientu, zato se ta del nanaša na Windows.</p>
 <p>Control Panel =&gt; Windows Credentials =&gt; find git:https://github.com =&gt; Edit =&gt; On Password replace with with your GitHub Personal Access Token =&gt; You are Done
 <strong>Nadzorna plošča</strong> =&gt; <strong>Uporabniški računi</strong> =&gt; <strong>Upravitelj poverilnic</strong> =&gt; poišči <strong>git:https://github.com</strong> =&gt; Uredi =&gt; Geslo zamenjaj z Žetonom.</p>
 <p>V kolikor ne najdeš <strong>git:https://github.com</strong> dodaj generično poverilnico in vnesi uporabniško ime in Žeton.</p>
-<h3 id="ustvarjanje-repozitorija">Ustvarjanje repozitorija</h3>
+<h3 id="ustvarjanje-repozitorija">Ustvarjanje repozitorija<a class="headerlink" href="#ustvarjanje-repozitorija" title="Permanent link">&para;</a></h3>
 <p>Naredi repozitorij z imenom <strong>jferjan.github.io.</strong> GitHub bo vsebino tega objavil na naslovu <a href="https://jferjan.github.io/">jferjan.github.io</a>. Pomembno je, da je naslov repozitorija v obliki <strong>username.github.io</strong>, ker z drugačnim imenom repozitorija zadeva ne deluje.</p>
-<h3 id="naredi-mapo-github-v-svojih-dokumentih-in-vanjo-kloniraj-git-repozitorij">Naredi mapo GitHub v svojih dokumentih in vanjo kloniraj git repozitorij</h3>
+<h3 id="naredi-mapo-github-v-svojih-dokumentih-in-vanjo-kloniraj-git-repozitorij">Naredi mapo GitHub v svojih dokumentih in vanjo kloniraj git repozitorij<a class="headerlink" href="#naredi-mapo-github-v-svojih-dokumentih-in-vanjo-kloniraj-git-repozitorij" title="Permanent link">&para;</a></h3>
 <p>~\GitHub ❯</p>
-<pre><code>git clone https://github.com/jferjan/jferjan.github.io.git
+<div class="highlight"><pre><span></span><code>git clone https://github.com/jferjan/jferjan.github.io.git
 cd jferjan.github.io
-</code></pre>
-<h3 id="naredi-docker-image">Naredi docker image</h3>
+</code></pre></div>
+<h3 id="naredi-docker-image">Naredi docker image<a class="headerlink" href="#naredi-docker-image" title="Permanent link">&para;</a></h3>
 <p>~\GitHub\jferjan.github.io main ❯</p>
-<pre><code>docker build -t jferjan/mkdocs-material:1 .
-</code></pre>
-<h3 id="zazeni-mkdocs-streznik-za-ogled-spletnega-mesta">Zaženi MKDocs strežnik za ogled spletnega mesta</h3>
+<div class="highlight"><pre><span></span><code>docker build -t jferjan/mkdocs-material:1 .
+</code></pre></div>
+<h3 id="zazeni-mkdocs-streznik-za-ogled-spletnega-mesta">Zaženi MKDocs strežnik za ogled spletnega mesta<a class="headerlink" href="#zazeni-mkdocs-streznik-za-ogled-spletnega-mesta" title="Permanent link">&para;</a></h3>
 <p>~\GitHub\jferjan.github.io main ❯</p>
-<pre><code>docker compose up -d
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker compose up -d
+</code></pre></div>
 <p>Spletno mesto si lahko ogledaš na naslovu <a href="http://localhost:8000/">localhost:8000</a>.</p>
 <p>Strežnik lahko izklopiš z</p>
 <p>~\GitHub\jferjan.github.io main ❯</p>
-<pre><code>docker compose down
-</code></pre>
-<h3 id="posodobi-vsebino-in-konfiguracijo-spletnega-mesta">Posodobi vsebino in konfiguracijo spletnega mesta</h3>
+<div class="highlight"><pre><span></span><code>docker compose down
+</code></pre></div>
+<h3 id="posodobi-vsebino-in-konfiguracijo-spletnega-mesta">Posodobi vsebino in konfiguracijo spletnega mesta<a class="headerlink" href="#posodobi-vsebino-in-konfiguracijo-spletnega-mesta" title="Permanent link">&para;</a></h3>
 <p>Hja, na tej toči si boš verjetno moral malo prebrati dokumentacijo MKDocs. Predvsem za lažje razumevanje osnov konfiguracije.</p>
 <p>V osnovi je struktura MKDocs sila preprosta. Ena konfiguracijska datoteka <strong>mkdocs.yml</strong> in v MarkDown sintaksi napisane datoteke, ki jih doložiš v mapo <strong>docs/</strong></p>
-<pre><code>mkdocs.yml    # The configuration file.
+<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
 docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
-</code></pre>
-<h3 id="dodaj-datoteke-in-jih-porini-v-main-vejo-repozitorija">Dodaj datoteke in jih porini v main vejo repozitorija</h3>
+</code></pre></div>
+<h3 id="dodaj-datoteke-in-jih-porini-v-main-vejo-repozitorija">Dodaj datoteke in jih porini v main vejo repozitorija<a class="headerlink" href="#dodaj-datoteke-in-jih-porini-v-main-vejo-repozitorija" title="Permanent link">&para;</a></h3>
 <p>~\GitHub\jferjan.github.io main ❯</p>
-<pre><code>git add --all
-git commit -m "Dodane spremebe spletnega mesta"
+<div class="highlight"><pre><span></span><code>git add --all
+git commit -m &quot;Dodane spremebe spletnega mesta&quot;
 git remote rm origin # Če bomo porivali kodo v drug repo kot jferjan.github.io
 git remote add origin URL_TO_GITHUB_REPO # Če bomo porivali kodo v drug repo kot jferjan.github.io
 git push -u origin main
-</code></pre>
-<h3 id="zgeneriraj-staticno-spletno-mesto-in-ga-porini-v-github-repozitorij-v-vejo-gh-pages">Zgeneriraj statično spletno mesto in ga porini v GitHub repozitorij v vejo gh-pages</h3>
+</code></pre></div>
+<h3 id="zgeneriraj-staticno-spletno-mesto-in-ga-porini-v-github-repozitorij-v-vejo-gh-pages">Zgeneriraj statično spletno mesto in ga porini v GitHub repozitorij v vejo gh-pages<a class="headerlink" href="#zgeneriraj-staticno-spletno-mesto-in-ga-porini-v-github-repozitorij-v-vejo-gh-pages" title="Permanent link">&para;</a></h3>
 <p>~\GitHub\jferjan.github.io main ❯</p>
-<pre><code>docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 gh-deploy
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm -it -v ${PWD}:/docs jferjan/mkdocs-material:1 gh-deploy
+</code></pre></div>
 <blockquote>
 <p>Vnesi uporabniško ime in žeton.</p>
 <p>Ob prvi uporabi GitHub avtomatično ustvari vejo <strong>gh-pages</strong>. </p>
 </blockquote>
-<h3 id="spremeni-nastavitve-github-repozitorija-jferjangithubio-da-bo-github-pages-uporabljal-vsebino-veje-gh-pages">Spremeni nastavitve GitHub repozitorija jferjan.github.io, da bo Github pages uporabljal vsebino veje "gh-pages"</h3>
+<h3 id="spremeni-nastavitve-github-repozitorija-jferjangithubio-da-bo-github-pages-uporabljal-vsebino-veje-gh-pages">Spremeni nastavitve GitHub repozitorija jferjan.github.io, da bo Github pages uporabljal vsebino veje "gh-pages"<a class="headerlink" href="#spremeni-nastavitve-github-repozitorija-jferjangithubio-da-bo-github-pages-uporabljal-vsebino-veje-gh-pages" title="Permanent link">&para;</a></h3>
 <p>Nastavitve najdeš znotraj repozitorija pod <strong>Settings</strong> =&gt; <strong>Pages</strong><br />
 <a href="https://github.com/jferjan/jferjan.github.io/settings/pages">github.com/jferjan/jferjan.github.io/settings/page</a></p>
 <p>Build an deployment branch nastaviš na <strong>gh-pages</strong>.</p>
@@ -515,7 +550,7 @@ git push -u origin main
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Kopirano v odlo\u017ei\u0161\u010de", "clipboard.copy": "Kopiraj v odlo\u017ei\u0161\u010de", "search.config.lang": "sl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "I\u0161\u010di", "search.result.more.one": "\u0160e 1 na tej strani", "search.result.more.other": "\u0160e # na tej strani", "search.result.none": "Ni zadetkov", "search.result.one": "1 zadetek", "search.result.other": "# zadetkov", "search.result.placeholder": "Vpi\u0161i iskalni niz", "search.result.term.missing": "Manjka", "select.version.title": "Izberi razli\u010dico"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Kopirano v odlo\u017ei\u0161\u010de", "clipboard.copy": "Kopiraj v odlo\u017ei\u0161\u010de", "search.config.lang": "sl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "I\u0161\u010di", "search.result.more.one": "\u0160e 1 na tej strani", "search.result.more.other": "\u0160e # na tej strani", "search.result.none": "Ni zadetkov", "search.result.one": "1 zadetek", "search.result.other": "# zadetkov", "search.result.placeholder": "Vpi\u0161i iskalni niz", "search.result.term.missing": "Manjka", "select.version.title": "Izberi razli\u010dico"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
