@@ -351,15 +351,6 @@
 
 <h1 id="powershelll-skripta-za-preprecevanje-neaktivnostispanja-masine">Powershelll skripta za preprečevanje neaktivnosti/spanja mašine<a class="headerlink" href="#powershelll-skripta-za-preprecevanje-neaktivnostispanja-masine" title="Permanent link">&para;</a></h1>
 <p>Skripta vsake štiri minute simulira vklop/izklop scrool locka. Ob delovanju piše log na stdout, da vidimo da deluje. Delovanje se vidi tudi po kratkem utripu scrool-lock lučke vsake 4 minute.</p>
-<p><a class="md-button md-button--primary" href="#">Subscribe to our newsletter</a></p>
-<p>Testiram <abbr title="Hyper Text Markup Language">HTML</abbr> jezik</p>
-<details class="danger" open="open">
-<summary>Danger</summary>
-<p>123dasda<br />
-testiram note</p>
-<div class="highlight"><pre><span></span><code>scp sh
-</code></pre></div>
-</details>
 <h2 id="1-pripravi-skripto">1. Pripravi skripto<a class="headerlink" href="#1-pripravi-skripto" title="Permanent link">&para;</a></h2>
 <p>Naredi si datoteko (skripto) <code>nosleep.ps1</code> z vsebino:</p>
 <div class="highlight"><pre><span></span><code><span class="c">#</span>
@@ -412,14 +403,14 @@ testiram note</p>
 <div class="highlight"><pre><span></span><code>.\nosleep.ps1
 </code></pre></div>
 <h2 id="4-bliznjica-za-zagon-skripte">4. Bližnjica za zagon skripte<a class="headerlink" href="#4-bliznjica-za-zagon-skripte" title="Permanent link">&para;</a></h2>
-<p>Namesto korakov 2. in 3. si lahko narediš bližnjico</p>
+<p>Namesto korakov 2. in 3. si lahko narediš bližnjico.</p>
 <p>Za cilj bljižnice navedi:</p>
 <div class="highlight"><pre><span></span><code>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -ExecutionPolicy Bypass -File C:\Users\username\NoSleep\nosleep.ps1
 </code></pre></div>
-<blockquote>
-<p>Nastavi ustrezno pot do datoteke powershell.exe
-Nastavi ustrezno pot do datoteke nosleep.ps1</p>
-</blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Nastavi ustrezno pot do datoteke <code>powershell.exe</code> in <code>nosleep.ps1</code>.</p>
+</div>
 
 
 
