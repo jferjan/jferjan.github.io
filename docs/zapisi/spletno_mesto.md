@@ -13,8 +13,8 @@ Ja vem, naslov je clickbait, danes ni nič brezplačno. Pa vseeno, tale recept z
 - Docker - Okolje za delo z vsebniki.
 
 ## Namen/Motivacija
-- Preizkusiti GitHub Pages
-- Preizkusiti MKDocs
+- Preizkusiti [GitHub Pages](https://pages.github.com/)
+- Preizkusiti [MKDocs z material temo](https://squidfunk.github.io/mkdocs-material/)
 - Spoznati MarkDown 
 - Pričeti uporabljati GitHub 
 - Vzpostaviti spletno prisotnost

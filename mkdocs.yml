@@ -59,5 +59,4 @@ markdown_extensions:
 plugins:
   - tags:
       tags_file: zapisi.md
-  - search:
-      lang: en
+  #- search # search za sl še ne deluje ker manjka lunr.sl.min.js
