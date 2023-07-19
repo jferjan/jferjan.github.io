@@ -5,6 +5,8 @@ tags:
 
 # Bikepacking gear
 
+Disclaimer: Some links on this page are affiliate links. As an Amazon Associate I earn from qualifying purchases.
+
 ## Bike
 
 Trek 7000 ZX Dragonfly Green (Alpha ZX aluminum) - year 1999
