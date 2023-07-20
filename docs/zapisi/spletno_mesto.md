@@ -34,7 +34,7 @@ V svojem GitHub računu pojdi na:
 **Settings** => **Developer Settings** => **Personal Access Tokens** => **Tokens (classic)** => **Generate new token** => Vnesi geslo in izpolni formo => **Generate token** => Skopiraj generirani Token (Žeton), bo v obliki kot npr. ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
 
 Pri izpolnjevanju forme določiš obdobje veljavnosti in obseg pravic, ki jih bo imel ta žeton.
-Pri določanju obsega pravic sem bil malo zmeden, ker nisem razumel vsega. Izbral sem **repo** in **project**.
+Pri določanju obsega pravic sem izbral **repo** in **project** in **workflow**. Pravica **workflow** je pomembna, če bomo objavljali s pomočjo GitHub Actions.
 
 ### Posodobi poverilnice na svojem klientu 
 
@@ -92,7 +92,7 @@ V osnovi je struktura MKDocs sila preprosta. Ena konfiguracijska datoteka **mkdo
     git remote add origin URL_TO_GITHUB_REPO # Če bomo porivali kodo v drug repo kot jferjan.github.io
     git push -u origin main
 
-### Zgeneriraj statično spletno mesto in ga porini v GitHub repozitorij v vejo gh-pages
+### Varianta 1: Ročno zgeneriraj statično spletno mesto in ga porini v GitHub repozitorij v vejo gh-pages
 
 
 ~\GitHub\jferjan.github.io main ❯
@@ -102,6 +102,41 @@ V osnovi je struktura MKDocs sila preprosta. Ena konfiguracijska datoteka **mkdo
 > Vnesi uporabniško ime in žeton.
 
 > Ob prvi uporabi GitHub avtomatično ustvari vejo **gh-pages**. 
+
+### Varianta 2: Nastavi Github actions workflow za avtomatično objavo sprememb v main veji repozitorija.
+
+Na kratko. V rootu repozitorija je potrebno narediti mapo `.github` znotraj njega mapo `workflows` in znotraj te mape datoteko `ci.yml` z vsebino:
+
+``` yaml
+name: ci 
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
+```
+
+Spremembe porinemo v main vejo našega repozitorija in s tem je konfiguracija GitHub Actions končana. Od sedaj naprej se bo ob vsaki spremembi main veje repozitorija avtomatično zagnala deploy procedura, ki bo zgradila vsebino veje gh-pages.
+
+Uspešnost izvajanja deploy procedur lahko preverimo v [Github actions konzoli](https://github.com/jferjan/jferjan.github.io/actions/workflows/ci.yml)
 
 ### Spremeni nastavitve GitHub repozitorija jferjan.github.io, da bo Github pages uporabljal vsebino veje "gh-pages"
 
