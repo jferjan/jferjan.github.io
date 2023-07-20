@@ -5,7 +5,13 @@ tags:
 
 # Bikepacking gear
 
-Disclaimer: Some links on this page are affiliate links. As an Amazon Associate I earn from qualifying purchases.
+I get hit up often about my personal gear and cycling equipment choices, bikepacking essentials, pack lists, etc.  My gear selection varies based on terrain, ride length, riding goals (speed vs comfort), weather, and endless other factors.  So I figured I’d organize one comprehensive “master list”.  This is a living document to pour over, compare with your own lists, and hopefully get some good take away. Likewise, I’m on an endless quest to dial in my kit.   
+
+A couple notes:
+
+- Much of this list is wayyyyy overkill for the afternoon quickie on your local loop. I want this to be comprehensive enough for solo style bikepacking / cycle touring or epic backcountry/self-supported rides where nobody is gonna be around to help you out of a jam.  Obviously, you can cherry pick the content based on your needs, but it’s best to start with big list and pare it down.
+- I vouch for these items based on personal use over many of kilometers of riding.
+- Some of the hyperlinks below will take you to Amazon. As an Amazon Associate I earn from qualifying purchases.
 
 ## Bike
 
