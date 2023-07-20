@@ -9,7 +9,7 @@ Disclaimer: Some links on this page are affiliate links. As an Amazon Associate 
 
 ## Bike
 
-![Me and my bike](../../img/bikepacking_gear/trek.jpg)
+![Me and my bike](trek.jpg)
 
 Trek 7000 ZX Dragonfly Green (Alpha ZX aluminum) - year 1999
 
