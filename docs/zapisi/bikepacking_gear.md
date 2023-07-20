@@ -5,13 +5,15 @@ tags:
 
 # Bikepacking gear
 
-I get hit up often about my personal gear and cycling equipment choices, bikepacking essentials, pack lists, etc.  My gear selection varies based on terrain, ride length, riding goals (speed vs comfort), weather, and endless other factors.  So I figured I’d organize one comprehensive “master list”.  This is a living document to pour over, compare with your own lists, and hopefully get some good take away. Likewise, I’m on an endless quest to dial in my kit.   
+I often receive inquiries about my personal gear and cycling equipment choices, bikepacking essentials, pack lists etc. To address these questions and provide a comprehensive resource, I decided to create a "Bikepacking gear master list" encompassing all the essential items. This document is continually updated, serving as a reference for fellow enthusiasts to compare with their own lists and extract valuable insights. As I am constantly refining my own kit, this list remains an ever-evolving work.
 
-A couple notes:
+A few things to keep in mind:
 
-- Much of this list is wayyyyy overkill for the afternoon quickie on your local loop. I want this to be comprehensive enough for solo style bikepacking / cycle touring or epic backcountry/self-supported rides where nobody is gonna be around to help you out of a jam.  Obviously, you can cherry pick the content based on your needs, but it’s best to start with big list and pare it down.
-- I vouch for these items based on personal use over many of kilometers of riding.
-- Some of the hyperlinks below will take you to Amazon. As an Amazon Associate I earn from qualifying purchases.
+- While this list may seem extensive, it is tailored for more demanding scenarios like solo bikepacking, cycle touring, or self-supported rides in remote backcountry areas. Much of this list is too much for a quick local loop ride in the afternoon. However, starting with a comprehensive list allows you to customize it based on your specific needs.
+- Each item on the list comes with my personal endorsement, earned through testing and use during many kilometers of riding.
+- For your convenience, some of the items have hyperlinks that direct you to Amazon. As an Amazon Associate I earn from qualifying purchases.
+
+Feel free to delve into the details, compare it with your own setup, and find the perfect gear combination that suits your individual style of riding. Remember, bikepacking and cycling adventures are as much about the journey as they are about the destination, and having the right equipment can make all the difference. Happy pedaling!
 
 ## Bike
 
