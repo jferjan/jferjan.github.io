@@ -60,3 +60,14 @@ plugins:
   - tags:
       tags_file: zapisi.md
   #- search # search za sl še ne deluje ker manjka lunr.sl.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ferjan/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@JakaFerjan
+    - icon: fontawesome/brands/github 
+      link: https://github.com/jferjan
+
+copyright: Copyright &copy; Jaka ferjan
