@@ -61,6 +61,7 @@ plugins:
   - tags:
       tags_file: zapisi.md
   - search # search za sl še ne deluje ker manjka lunr.sl.min.js
+      lang: en
 
 extra:
   social:
