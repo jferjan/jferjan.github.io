@@ -13,7 +13,7 @@ theme:
     - navigation.top # back to top - neprevedeno v slo
     - search.suggest
     - search.highlight
-
+  logo: img/JF_logo_white_on_transparent.png
   palette:
     - scheme: default
       toggle:
