@@ -70,5 +70,9 @@ extra:
       link: https://www.youtube.com/@JakaFerjan
     - icon: fontawesome/brands/github 
       link: https://github.com/jferjan
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/jferjan
+    - icon: material/bike-fast
+      link: https://www.komoot.com/user/812042217858
 
 copyright: Copyright &copy; Jaka Ferjan

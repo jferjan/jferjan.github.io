@@ -1,6 +1,6 @@
 ---
 tags:
-  - test
+  - _test
 ---
 
 Hello, World!

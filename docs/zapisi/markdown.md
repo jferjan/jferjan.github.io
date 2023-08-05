@@ -1,6 +1,6 @@
 ---
 tags:
-  - test
+  - _test
 ---
 
 Stran je neke vrste **plonk listek** za sintakso, ki jo uporabljam oz. jo bom uporabljal.  

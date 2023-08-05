@@ -1,6 +1,6 @@
 ---
 tags:
-  - IT
+  - _draft
 ---
 
 # Ferjanove avtomatične čestitke - avtomatizacija čestitk za rojstni dan (zapis še ni končan - stay tuned)

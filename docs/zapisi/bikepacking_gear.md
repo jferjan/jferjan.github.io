@@ -1,6 +1,6 @@
 ---
 tags:
-  - bikepacking
+  - Kolesarjenje
 ---
 
 # Bikepacking gear
