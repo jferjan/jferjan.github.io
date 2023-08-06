@@ -19,60 +19,79 @@ Feel free to delve into the details, compare it with your own setup, and find th
 
 ![Me and my bike](trek.jpg)
 
-Trek 7000 ZX Dragonfly Green (Alpha ZX aluminum) - year 1999
+**Trek 7000 ZX Dragonfly Green (Alpha ZX aluminum)** - year 1999
 
-front tire - Continental double fighter 26 x 1.9
-rear tire - Continental double fighter 26 x 1.9
-spokes - DT stainless steel, 1.8mm straight gauge, Brass nipples
-fork - Rock Shox Judy XT (80mm travel)
-rim front - Bontrager Corvair, 28-hole
-rear rim - Bontrager Corvair, 32-hole
-crank Shimano BB-UN52, 113mm spindle
-BB shell width 73mm English
-crankset - ICON Flywheel, 22/32/44 teeth
-rear chainring - 9-speed, 11 - 32 teeth
-rear spoke protection - YF-FH60 32T-32H
-front derailleur - Shimano LX, top-pull/clamp-on 35mm
-rear derailleur - Shimano XT
-bracket for gearbox - Part n. 230026
-front shifter - Shimano Deore LX RapidFire SL
-rear shifter - Shimano Deore XT
-front tube - Continental MTB 26 1.75-2.5 spoke 42mm
-rear tube - Continental MTB 26 1.75-2.5 spoke 42mm
-front hub - Bontrager Comp II
-rear hub - Bontrager Comp II
-brake levers - Avid SD-1.0 L levers
-handlebar - Bontrager
-handlebar mount - Giant Contact OD2 105mm 30%
-headset - 1 1/8" threadless Aheadset ST
-handles - TranzX alloy 6061
-seat - Brooks B17
-chain - Shimano CN-HG72, 1/2 x 3/32"
-combined pedals - Shimano PD-T8000
-brakes - Avid 1D-10 brakes
-brake pads - DT-SWISS (back), Shimano-XT (front)
+??? Components
+    - front tire - Continental double fighter 26 x 1.9
+    - rear tire - Continental double fighter 26 x 1.9
+    - spokes - DT stainless steel, 1.8mm straight gauge, Brass nipples
+    - fork - Rock Shox Judy XT (80mm travel)
+    - front rim - Bontrager Corvair, 28-hole
+    - rear rim - Bontrager Corvair, 32-hole
+    - crank Shimano BB-UN52, 113mm spindle
+    - BB shell width 73mm English
+    - crankset - ICON Flywheel, 22/32/44 teeth
+    - rear chainring - 9-speed, 11 - 32 teeth
+    - rear spoke protection - YF-FH60 32T-32H
+    - front derailleur - Shimano LX, top-pull/clamp-on 35mm
+    - rear derailleur - Shimano XT
+    - bracket for gearbox - Part n. 230026
+    - front shifter - Shimano Deore LX RapidFire SL
+    - rear shifter - Shimano Deore XT
+    - front tube - Continental MTB 26 1.75-2.5 spoke 42mm
+    - rear tube - Continental MTB 26 1.75-2.5 spoke 42mm
+    - front hub - Bontrager Comp II
+    - rear hub - Bontrager Comp II
+    - brake levers - Avid SD-1.0 L levers
+    - handlebar - Bontrager
+    - handlebar mount - Giant Contact OD2 105mm 30%
+    - headset - 1 1/8" threadless Aheadset ST
+    - handles - TranzX alloy 6061
+    - seat - Brooks B17
+    - chain - Shimano CN-HG72, 1/2 x 3/32"
+    - combined pedals - Shimano PD-T8000
+    - brakes - Avid 1D-10 brakes
+    - brake pads - DT-SWISS (back), Shimano-XT (front)
 
+I've had this beauty since high school.  I take good care of it and it still works without any problems. In fact, it has become so close to my heart that despite the desire for a new bike, I cannot find a suitable one that could replace the one I have. I know 26 inches is old fashioned by today's standards, but this is how I roll.
 
 ## Bags/carriers
 
-Rear rack - [Bor Yueh BY 309](https://www.boryueh.com/en/alloy-carrier/172-by-309)
+**Rear rack** - [Bor Yueh BY 309](https://www.boryueh.com/en/alloy-carrier/172-by-309)
 
-Framebag - [Giant Scout Framebag L](https://www.freestyle.si/torbica-giant-scout-frame-bag-l::12805163)
+Extremely light, quick to install. It has a panel that stops some of the mud from splashing on things and your back.
 
-Seatpost Bag [Ortlieb Seatpack L 16.5 L](https://www.amazon.com/dp/B01FWZOT8Q?tag=ferjan-20)
+**Framebag** - [Giant Scout Framebag L](https://www.freestyle.si/torbica-giant-scout-frame-bag-l::12805163)
 
-Handlebar Bag [Vaude Trailfront Bag 19 L](https://www.amazon.de/-/en/dp/B07NZXN56B?tag=ferjan-21)
+Relatively cheap. The zippers are durable. The original is not 100% waterproof, so I sealed the seams with silicone. It has enough separate compartments for packing. Enables the installation of a water bladder.
 
-Fuelbag [Topeak Toploader 0.75 L](https://www.amazon.com/dp/B01M9AFWHT?tag=ferjan-20)
+**Seatpost Bag** - [Ortlieb Seatpack L 16.5 L](https://www.amazon.com/dp/B01FWZOT8Q?tag=ferjan-20)
 
-Handlebar Bottle Holder 2x [Decathlon Riverside](https://www.decathlon.si/p/168751-70213_nosilec-za-bidon-iz-tkanine-za-na-krmilo.html)
+Light, durable. It has an air release valve. If you plan to pack full, I would recommend buying an additional strap for stabilization, I made the strap and buckle for stabilization myself.
 
-Fork Bottle Holder 2x [Topeak Shuttle cage AL](https://www.amazon.com/dp/B000FICBRM?tag=ferjan-20)
+**Handlebar Bag** - [Vaude Trailfront Bag 19 L](https://www.amazon.de/-/en/dp/B07NZXN56B?tag=ferjan-21)
 
-Bottle 4x [Decathlon Triban Softflow 650 ml](https://www.decathlon.si/p/168916-52581_turkizen-kolesarski-bidon-za-vodo-softflow-650-ml.html)
+The bag together with the carrier is not the lightest. But it is really big (only suitable for MTB handlebars).  Makes it easy to remove when it's time to sleep. Ideal for those who need more space. The upper part of the bag carrier has additional clips that allow the installation of some other lighter piece of equipment.
 
-Soft Flask [Salomon Soft Flask 250ml](https://www.amazon.com/dp/B09P2JZ996?tag=ferjan-20)
+**Fuelbag** - [Topeak Toploader 0.75 L](https://www.amazon.com/dp/B01M9AFWHT?tag=ferjan-20)
 
+Great for powerbars, electrolyte tablets, battery packs, headphones, small sunscreen, and more. It opens/closes easily, with one hand.  It is not 100% waterproof, but it has a built-in rain cover.
+
+**Handlebar Bottle Holder** (2x) - [Decathlon Riverside](https://www.decathlon.si/p/168751-70213_nosilec-za-bidon-iz-tkanine-za-na-krmilo.html)
+
+Best buy in Decathlon. Super useful.  For water bottles, phone, chocolates, cold beer, anything.  Everything is directly at hand, at the most easily accessible point.  Mandatory purchase!
+
+**Fork Bottle Holder** (2x) - [Topeak Shuttle cage AL](https://www.amazon.com/dp/B000FICBRM?tag=ferjan-20)
+
+Light, durable. Bottles do not fly out even when driving on rough terrain.  Since I didn't have screws for the fork, I made them with water pipe clamps and adjustable brackets from Decathlon.
+
+**Bottle** (4x) - [Decathlon Triban Softflow 650 ml](https://www.decathlon.si/p/168916-52581_turkizen-kolesarski-bidon-za-vodo-softflow-650-ml.html)
+
+Cheap bottle. It does its job. There is nothing more to say.
+
+**Soft Flask** - [Salomon Soft Flask 250ml](https://www.amazon.com/dp/B09P2JZ996?tag=ferjan-20)
+
+An ideal bottle for home-made soft-gels.  The stopper seals perfectly. I carry the gel in this bottle in the back pocket of my t-shirt and use it to add energy during the most strenuous work. Be sure to buy Salomon and not a fake, which is not comparable to the quality of the original.
 
 ## Tools
 
@@ -134,7 +153,7 @@ Bell and Bicycle Alarm [Wind and Moon](https://www.amazon.com/dp/B09VBC5NYK?tag=
 Application for Navigation and Tracking [Komoot (with world pack)](http://komoot.com/)
 
 
-# Clothes
+## Clothes
 
 Cycling Shoes [Northwave Corsair](https://www.amazon.com/dp/B07HMYNYSV?tag=ferjan-20)
 
