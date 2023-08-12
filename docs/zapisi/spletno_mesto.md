@@ -58,6 +58,10 @@ Naredi repozitorij z imenom **jferjan.github.io.** GitHub bo vsebino tega objavi
 ~\GitHub\jferjan.github.io main ❯
     
     docker build -t jferjan/mkdocs-material:1 .
+      
+  > V kolikor build ne uspe lahko pogledaš v build log.
+  
+    docker build --no-cache --progress=plain -t jferjan/mkdocs-material:1 . 2>&1 | tee build.log
 
 ### Zaženi MKDocs strežnik za ogled spletnega mesta
 ~\GitHub\jferjan.github.io main ❯
