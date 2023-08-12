@@ -59,9 +59,19 @@ Naredi repozitorij z imenom **jferjan.github.io.** GitHub bo vsebino tega objavi
     
     docker build -t jferjan/mkdocs-material:1 .
       
-  > V kolikor build ne uspe lahko pogledaš v build log.
-  
-    docker build --no-cache --progress=plain -t jferjan/mkdocs-material:1 . 2>&1 | tee build.log
+> Uspešnost izgradnje Docker slike preveriš z ukazom `~\GitHub\jferjan.github.io main ❯ docker images` 
+>
+> V kolikor build ne uspe lahko pogledaš v build log.
+>
+> `~\GitHub\jferjan.github.io main ❯ docker build --no-cache --progress=plain -t jferjan/mkdocs-material:1 . 2>&1 | tee build.log`
+>
+> V Windows okolju lahko build poženeš tudi preko Ubuntu WSL.
+>
+> `~\GitHub\jferjan.github.io main ❯ wsl`
+>
+> `jferjan@Lenovo-T15-Jaka:/mnt/c/Users/jakaf/GitHub/jferjan.github.io$ ./build.sh`
+>
+> `exit`
 
 ### Zaženi MKDocs strežnik za ogled spletnega mesta
 ~\GitHub\jferjan.github.io main ❯
