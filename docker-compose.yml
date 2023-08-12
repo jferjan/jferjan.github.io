@@ -4,6 +4,7 @@ services:
   mkdocs:
     container_name: mkdocs_material
     image: jferjan/mkdocs-material:1
+    #image: squidfunk/mkdocs-material:9.1.21
     ports:
       - '8000:8000'
     restart: unless-stopped

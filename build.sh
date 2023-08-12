@@ -1,1 +1,1 @@
-docker build -t jferjan/mkdocs-material:1 .
+docker build --no-cache --progress=plain -t jferjan/mkdocs-material:1 . 2>&1 | tee build.log
