@@ -1,6 +1,10 @@
 ---
 tags:
   - _test
+author: 
+  - Jaka, 123456@gmail.com]
+  - Test
+description: Vzorčna stran s primeri markdown sintakse
 ---
 
 Stran je neke vrste **plonk listek** za sintakso, ki jo uporabljam oz. jo bom uporabljal.  
