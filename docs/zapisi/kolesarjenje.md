@@ -27,8 +27,14 @@ Grčija je bila tisto pravo kolesarsko odkritje. Logistika je bila enostavna. S 
 #### S kolesi po južni Grčiji
 Moja prva Grčija s kolesom. Tri tedne pedalirnja in morja s prijatelji. Marko, Klemen, Matevž, Maj in moja malenkost. Izkrcanje v Patrasu, čez Peloponez, na Kreto, Santorini, Ios, Mikonos, v Atene in nazaj. 
 
+![S kolesi po južni Grčiji](https://lh3.googleusercontent.com/pw/ABLVV86qJS6nlSaARv1qR2LGLbcek5UKZbbeOYJS8kltbjeTO4WucRiGEM7De3xAnSkoCCrfU-C4FKNvgdSEDY0tSWEFeMtNf_rU4mumool6nPiOlhLowezkMDcUf4Lfbjgm8p1j2Rvh7zEqBL8IZ1nUHqdp3A=w1598-h1065-s-no-gm?authuser=0 "S kolesi po južni Grčiji"){referrerpolicy="no-referrer"}
+
+
 #### S kolesi po osrednji Grčiji
 Tokrat smo samo jaz, Matevž in Maj. V katero smer gremo smo se zmenili šele naslednji dan po izkrcanju v Igumenitsi. Na glasovanju zmaga ideja, da gremo v centralno Grčijo. Imamo dobra dva tedna časa, kar je ravno prav za vse klance, ki so pred nami. Kolesarjenje po osrednji Grčiji je prečudovito, narava je večinoma nedotaknjena in niti za trenutek ne pogrešam morja. Čez dan prijetnih 30, popoldne pa praviloma nevihte. Čudoviti prelazi, gorske vasice, nepozabna zabava v Meteori.
+
+![S kolesi po osrednji Grčiji](https://lh3.googleusercontent.com/pw/ABLVV84_ruxVdTkJsmcmOwKsKf0hcuuKuaVJUCFcMhLFf3LQIbc4V-4Pim87HtzL_Ma8PvWGw-T3DwYd_IgSkWX0QRjCf0MAb0MzC3M05wDQPdA2Vu-VoKZM3aM5X1PUKQcKSnVs4EBHT3NNCYB85RVzT8vudA=w841-h538-s-no-gm?authuser=0 "S kolesi po osrednji Grčiji"){referrerpolicy="no-referrer"}
+
 
 #### S kolesi na Krf
 Tokrat se v Grčijo s kolesi podam z Bibi. V planu je kolesarjenje po Krfu, kar nama delno tudi uspe. V prvem tednu prekolesariva južni del Krfa, za zadnjih nekaj dni pa njameva bungalov. Severni del Krfa raziščeva z izposojenim skuterjem. 
@@ -45,7 +51,6 @@ Tokrat v družbi Aljaža, Petra in Marka. Ideja je, da čez prvomajske naredimo 
 
 ![Istra, Cres in Krk](https://lh3.googleusercontent.com/pw/ABLVV87pa7DfCxbwB5Ovy8sZGraLnefC0Kr18_SfnXSE_XnTz0APYsTEYuMPCgcvPPdQRB7lDduqwX5nYBcsAal9WRtGsr6W-qmvV5WHHDbbBL8O2nnLUkKjyJJNDW_bGKowjT8mEXBaF8bARNOp276wsR9brw=w1435-h807-s-no-gm?authuser=0 "Istra, Cres in Krk"){referrerpolicy="no-referrer"}
 
-[:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/xrrFWu2DLzFmS3S4A)
 
 ### Andaluzija (Španija)
 Več let kasneje, ko se je umirilo obdobje jadranja un potapljanja, so me sprejeli v Novakovo kolesarsko družbo. Fantje so me hitro naučili, kako se gre s kolesom na letalo.  In zadeva je nadvse uporabna. Zaenkrat sem s to družbo odpedaliral del Španije in del Turčije, se pa že veselim, da se odpravimo še kam.
@@ -118,6 +123,8 @@ Seveda niso vse ture večdnevne. Včasih paše tudi kakšna enodnevna. Vseh se s
 Na vlak do Jesenic. Preko Mojstrane v dolino Radovne in nazaj domov. 90km krog za začetek sezone. 
 
 [![Dolina Radovne ...in nazaj domov](https://lh3.googleusercontent.com/pw/ABLVV87CXqerGeMS0qIS9dHOFvBTO_cBbpPZp30tTtOrKiG7yIMLZNETBWQb3Aq63DXu1jPLQX6GHrBLEnOlVuJrPaaxgcZ47ziGUWgOZDPFijni1H9JeHTwaFX0NALd5-UHebtGbmev651jcJ-rRdnyIzdfLA=w1280-h720-s-no-gm?authuser=0 "Dolina Radovne ...in nazaj domov"){referrerpolicy="no-referrer"}](https://youtu.be/f3UXtgwZT4k)
+
+[:material-bike-fast: GPX](https://www.komoot.com/tour/720990359)
 
 
 ### Parenzana Gravel Race
