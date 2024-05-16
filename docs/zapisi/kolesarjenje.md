@@ -1,3 +1,8 @@
+---
+tags:
+  - Kolesarjenje
+---
+
 # Kolesarjenje
 
 ![Narobe svet](https://lh3.googleusercontent.com/pw/ABLVV84r-HXuWbQF1yR-xBTzcGXnwNooYpo1rlt43g01QgXmB_iEVCEo9iUcmJqZagURt38tGC9LwG4Hkw2DRbVxVYeDtYTbwGjcDYIQWpQIMZhfNpC8YbqF2HKdjg18MQ1gKl6S_VJZ1Yc8MWp44I9UgTey9Q=w1600-h1065-s-no-gm?authuser=0 "Narobe svet"){referrerpolicy="no-referrer"}

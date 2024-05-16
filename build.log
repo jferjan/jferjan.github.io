@@ -1,144 +1,152 @@
 #0 building with "default" instance using docker driver
 
 #1 [internal] load .dockerignore
-#1 transferring context: 2B done
-#1 DONE 0.0s
+#1 transferring context: 2B 0.0s done
+#1 DONE 0.1s
 
 #2 [internal] load build definition from Dockerfile
-#2 transferring dockerfile: 298B done
+#2 transferring dockerfile: 298B 0.0s done
 #2 DONE 0.1s
 
 #3 [internal] load metadata for docker.io/squidfunk/mkdocs-material:latest
 #3 DONE 0.0s
 
 #4 [1/2] FROM docker.io/squidfunk/mkdocs-material
-#4 CACHED
+#4 DONE 0.6s
 
 #5 [2/2] RUN pip install --no-cache-dir   mkdocs-awesome-pages-plugin   mkdocs-minify-plugin   mkdocs-git-revision-date-localized-plugin   mkdocs-bibtex   mkdocs-img2fig-plugin   mkdocs-mermaid2-plugin
-#5 2.899 Collecting mkdocs-awesome-pages-plugin
-#5 3.479   Downloading mkdocs_awesome_pages_plugin-2.9.1-py3-none-any.whl (14 kB)
-#5 3.503 Requirement already satisfied: mkdocs-minify-plugin in /usr/local/lib/python3.11/site-packages (0.7.0)
-#5 3.610 Collecting mkdocs-git-revision-date-localized-plugin
-#5 3.677   Downloading mkdocs_git_revision_date_localized_plugin-1.2.0-py3-none-any.whl (21 kB)
-#5 3.797 Collecting mkdocs-bibtex
-#5 3.870   Downloading mkdocs-bibtex-2.11.0.tar.gz (19 kB)
-#5 3.900   Installing build dependencies: started
-#5 10.80   Installing build dependencies: finished with status 'done'
-#5 10.80   Getting requirements to build wheel: started
-#5 11.16   Getting requirements to build wheel: finished with status 'done'
-#5 11.16   Installing backend dependencies: started
-#5 15.78   Installing backend dependencies: finished with status 'done'
-#5 15.78   Preparing metadata (pyproject.toml): started
-#5 16.21   Preparing metadata (pyproject.toml): finished with status 'done'
-#5 16.40 Collecting mkdocs-img2fig-plugin
-#5 16.46   Downloading mkdocs-img2fig-plugin-0.9.3.tar.gz (3.0 kB)
-#5 16.48   Preparing metadata (setup.py): started
-#5 17.16   Preparing metadata (setup.py): finished with status 'done'
-#5 17.42 Collecting mkdocs-mermaid2-plugin
-#5 17.42   Obtaining dependency information for mkdocs-mermaid2-plugin from https://files.pythonhosted.org/packages/0d/cc/bb08fa0048277712758bb0c0166f519986b0593accece98c6b1a71de5f62/mkdocs_mermaid2_plugin-1.0.8-py3-none-any.whl.metadata
-#5 17.56   Downloading mkdocs_mermaid2_plugin-1.0.8-py3-none-any.whl.metadata (1.3 kB)
-#5 17.57 Requirement already satisfied: mkdocs>=1 in /usr/local/lib/python3.11/site-packages (from mkdocs-awesome-pages-plugin) (1.5.0)
-#5 17.75 Collecting natsort>=8.1.0 (from mkdocs-awesome-pages-plugin)
-#5 17.75   Obtaining dependency information for natsort>=8.1.0 from https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl.metadata
-#5 17.85   Downloading natsort-8.4.0-py3-none-any.whl.metadata (21 kB)
-#5 18.33 Collecting wcmatch>=7 (from mkdocs-awesome-pages-plugin)
-#5 18.49   Downloading wcmatch-8.4.1-py3-none-any.whl (39 kB)
-#5 18.59 Requirement already satisfied: htmlmin2>=0.1.13 in /usr/local/lib/python3.11/site-packages (from mkdocs-minify-plugin) (0.1.13)
-#5 18.59 Requirement already satisfied: jsmin>=3.0.1 in /usr/local/lib/python3.11/site-packages (from mkdocs-minify-plugin) (3.0.1)
-#5 18.60 Requirement already satisfied: csscompressor>=0.9.5 in /usr/local/lib/python3.11/site-packages (from mkdocs-minify-plugin) (0.9.5)
-#5 18.76 Collecting GitPython (from mkdocs-git-revision-date-localized-plugin)
-#5 18.76   Obtaining dependency information for GitPython from https://files.pythonhosted.org/packages/67/50/742c2fb60989b76ccf7302c7b1d9e26505d7054c24f08cc7ec187faaaea7/GitPython-3.1.32-py3-none-any.whl.metadata
-#5 18.90   Downloading GitPython-3.1.32-py3-none-any.whl.metadata (10.0 kB)
-#5 19.46 Collecting babel>=2.7.0 (from mkdocs-git-revision-date-localized-plugin)
-#5 19.59   Downloading Babel-2.12.1-py3-none-any.whl (10.1 MB)
-#5 52.59      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 318.9 kB/s eta 0:00:00
-#5 52.99 Collecting pytz (from mkdocs-git-revision-date-localized-plugin)
-#5 53.14   Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
-#5 54.01      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.3/502.3 kB 569.3 kB/s eta 0:00:00
-#5 54.13 Collecting pybtex>=0.22 (from mkdocs-bibtex)
-#5 54.19   Downloading pybtex-0.24.0-py2.py3-none-any.whl (561 kB)
-#5 55.34      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 561.4/561.4 kB 500.9 kB/s eta 0:00:00
-#5 55.53 Collecting pypandoc>=1.5 (from mkdocs-bibtex)
-#5 56.01   Downloading pypandoc-1.11-py3-none-any.whl (20 kB)
-#5 56.05 Requirement already satisfied: requests>=2.8.1 in /usr/local/lib/python3.11/site-packages (from mkdocs-bibtex) (2.31.0)
-#5 56.17 Collecting validators>=0.19.0 (from mkdocs-bibtex)
-#5 56.17   Obtaining dependency information for validators>=0.19.0 from https://files.pythonhosted.org/packages/8d/e7/c2d0758c58dbd463b4a0a650f8cf3af5c4cbb6fbc61a36ce077964286feb/validators-0.21.2-py3-none-any.whl.metadata
-#5 56.38   Downloading validators-0.21.2-py3-none-any.whl.metadata (4.4 kB)
-#5 56.39 Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.11/site-packages (from mkdocs-mermaid2-plugin) (65.5.1)
-#5 56.55 Collecting beautifulsoup4>=4.6.3 (from mkdocs-mermaid2-plugin)
-#5 56.66   Downloading beautifulsoup4-4.12.2-py3-none-any.whl (142 kB)
-#5 57.00      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.0/143.0 kB 496.6 kB/s eta 0:00:00
-#5 57.14 Collecting jsbeautifier (from mkdocs-mermaid2-plugin)
-#5 57.45   Downloading jsbeautifier-1.14.9.tar.gz (75 kB)
-#5 57.68      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.0/75.0 kB 298.1 kB/s eta 0:00:00
-#5 57.69   Installing build dependencies: started
-#5 60.12   Installing build dependencies: finished with status 'done'
-#5 60.12   Getting requirements to build wheel: started
-#5 60.55   Getting requirements to build wheel: finished with status 'done'
-#5 60.55   Preparing metadata (pyproject.toml): started
-#5 61.01   Preparing metadata (pyproject.toml): finished with status 'done'
-#5 61.02 Requirement already satisfied: pymdown-extensions>=8.0 in /usr/local/lib/python3.11/site-packages (from mkdocs-mermaid2-plugin) (10.1)
-#5 61.18 Collecting soupsieve>1.2 (from beautifulsoup4>=4.6.3->mkdocs-mermaid2-plugin)
-#5 61.26   Downloading soupsieve-2.4.1-py3-none-any.whl (36 kB)
-#5 61.33 Requirement already satisfied: click>=7.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (8.1.6)
-#5 61.33 Requirement already satisfied: ghp-import>=1.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (2.1.0)
-#5 61.33 Requirement already satisfied: jinja2>=2.11.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (3.1.2)
-#5 61.33 Requirement already satisfied: markdown>=3.2.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (3.4.4)
-#5 61.33 Requirement already satisfied: markupsafe>=2.0.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (2.1.3)
-#5 61.33 Requirement already satisfied: mergedeep>=1.3.4 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (1.3.4)
-#5 61.33 Requirement already satisfied: packaging>=20.5 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (23.1)
-#5 61.34 Requirement already satisfied: pathspec>=0.11.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (0.11.1)
-#5 61.34 Requirement already satisfied: platformdirs>=2.2.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (3.9.1)
-#5 61.34 Requirement already satisfied: pyyaml-env-tag>=0.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (0.1)
-#5 61.34 Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (6.0.1)
-#5 61.34 Requirement already satisfied: watchdog>=2.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (3.0.0)
-#5 61.51 Collecting latexcodec>=1.0.4 (from pybtex>=0.22->mkdocs-bibtex)
-#5 61.75   Downloading latexcodec-2.0.1-py2.py3-none-any.whl (18 kB)
-#5 61.79 Requirement already satisfied: six in /usr/local/lib/python3.11/site-packages (from pybtex>=0.22->mkdocs-bibtex) (1.16.0)
-#5 61.80 Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (3.2.0)
-#5 61.80 Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (3.4)
-#5 61.80 Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (2.0.4)
-#5 61.81 Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (2023.7.22)
-#5 62.03 Collecting bracex>=2.1.1 (from wcmatch>=7->mkdocs-awesome-pages-plugin)
-#5 62.11   Downloading bracex-2.3.post1-py3-none-any.whl (12 kB)
-#5 62.23 Collecting gitdb<5,>=4.0.1 (from GitPython->mkdocs-git-revision-date-localized-plugin)
-#5 62.32   Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
-#5 62.47      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 726.5 kB/s eta 0:00:00
-#5 62.67 Collecting editorconfig>=0.12.2 (from jsbeautifier->mkdocs-mermaid2-plugin)
-#5 62.77   Downloading EditorConfig-0.12.3-py3-none-any.whl (16 kB)
-#5 63.11 Requirement already satisfied: python-dateutil>=2.8.1 in /usr/local/lib/python3.11/site-packages (from ghp-import>=1.0->mkdocs>=1->mkdocs-awesome-pages-plugin) (2.8.2)
-#5 63.72 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->GitPython->mkdocs-git-revision-date-localized-plugin)
-#5 63.87   Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
-#5 64.06 Downloading mkdocs_mermaid2_plugin-1.0.8-py3-none-any.whl (9.7 kB)
-#5 64.24 Downloading natsort-8.4.0-py3-none-any.whl (38 kB)
-#5 64.53 Downloading validators-0.21.2-py3-none-any.whl (25 kB)
-#5 64.67 Downloading GitPython-3.1.32-py3-none-any.whl (188 kB)
-#5 65.23    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.5/188.5 kB 351.6 kB/s eta 0:00:00
-#5 65.23 Building wheels for collected packages: mkdocs-bibtex, mkdocs-img2fig-plugin, jsbeautifier
-#5 65.23   Building wheel for mkdocs-bibtex (pyproject.toml): started
-#5 65.67   Building wheel for mkdocs-bibtex (pyproject.toml): finished with status 'done'
-#5 65.67   Created wheel for mkdocs-bibtex: filename=mkdocs_bibtex-2.11.0-py3-none-any.whl size=10251 sha256=bb3e9cde433e4551be16c5b53f7c9631668b122399bbd88d4fc977f682b24472
-#5 65.67   Stored in directory: /tmp/pip-ephem-wheel-cache-gxi6xmtz/wheels/20/c0/b5/21f75251cc6fbc514cdd702a2d85bea082488db280e73403d7
-#5 65.67   Building wheel for mkdocs-img2fig-plugin (setup.py): started
-#5 66.49   Building wheel for mkdocs-img2fig-plugin (setup.py): finished with status 'done'
-#5 66.49   Created wheel for mkdocs-img2fig-plugin: filename=mkdocs_img2fig_plugin-0.9.3-py3-none-any.whl size=3482 sha256=e91d97567ceb495553c8fc1a01f1a35ce29bfcc4a4fd46b9b750edfc95d6ecbe
-#5 66.49   Stored in directory: /tmp/pip-ephem-wheel-cache-gxi6xmtz/wheels/c5/b5/48/c077f6fbabf74f82954a2f5a6441d6c0886531088f6d84a309
-#5 66.49   Building wheel for jsbeautifier (pyproject.toml): started
-#5 66.99   Building wheel for jsbeautifier (pyproject.toml): finished with status 'done'
-#5 66.99   Created wheel for jsbeautifier: filename=jsbeautifier-1.14.9-py3-none-any.whl size=94113 sha256=e201c71544879428c58dc0e2ddb4386060ad81bd724989b5a1c91c7cbe919dbc
-#5 66.99   Stored in directory: /tmp/pip-ephem-wheel-cache-gxi6xmtz/wheels/b9/bd/4d/f11d410af889a445a4f36209ecc5fa5802aa9040a0bef2b235
-#5 67.00 Successfully built mkdocs-bibtex mkdocs-img2fig-plugin jsbeautifier
-#5 67.17 Installing collected packages: pytz, editorconfig, validators, soupsieve, smmap, pypandoc, natsort, latexcodec, jsbeautifier, bracex, babel, wcmatch, pybtex, gitdb, beautifulsoup4, GitPython, mkdocs-mermaid2-plugin, mkdocs-img2fig-plugin, mkdocs-git-revision-date-localized-plugin, mkdocs-bibtex, mkdocs-awesome-pages-plugin
-#5 68.37 Successfully installed GitPython-3.1.32 babel-2.12.1 beautifulsoup4-4.12.2 bracex-2.3.post1 editorconfig-0.12.3 gitdb-4.0.10 jsbeautifier-1.14.9 latexcodec-2.0.1 mkdocs-awesome-pages-plugin-2.9.1 mkdocs-bibtex-2.11.0 mkdocs-git-revision-date-localized-plugin-1.2.0 mkdocs-img2fig-plugin-0.9.3 mkdocs-mermaid2-plugin-1.0.8 natsort-8.4.0 pybtex-0.24.0 pypandoc-1.11 pytz-2023.3 smmap-5.0.0 soupsieve-2.4.1 validators-0.21.2 wcmatch-8.4.1
-#5 68.37 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-#5 DONE 69.2s
+#5 2.241 Collecting mkdocs-awesome-pages-plugin
+#5 2.476   Downloading mkdocs_awesome_pages_plugin-2.9.2-py3-none-any.whl.metadata (13 kB)
+#5 2.482 Requirement already satisfied: mkdocs-minify-plugin in /usr/local/lib/python3.11/site-packages (0.8.0)
+#5 2.518 Collecting mkdocs-git-revision-date-localized-plugin
+#5 2.551   Downloading mkdocs_git_revision_date_localized_plugin-1.2.5-py3-none-any.whl.metadata (4.8 kB)
+#5 2.679 Collecting mkdocs-bibtex
+#5 2.733   Downloading mkdocs_bibtex-2.15.0-py3-none-any.whl.metadata (5.9 kB)
+#5 2.854 Collecting mkdocs-img2fig-plugin
+#5 2.884   Downloading mkdocs-img2fig-plugin-0.9.3.tar.gz (3.0 kB)
+#5 2.893   Preparing metadata (setup.py): started
+#5 3.716   Preparing metadata (setup.py): finished with status 'done'
+#5 3.855 Collecting mkdocs-mermaid2-plugin
+#5 3.887   Downloading mkdocs_mermaid2_plugin-1.1.1-py3-none-any.whl.metadata (1.2 kB)
+#5 3.894 Requirement already satisfied: mkdocs>=1 in /usr/local/lib/python3.11/site-packages (from mkdocs-awesome-pages-plugin) (1.5.3)
+#5 3.931 Collecting natsort>=8.1.0 (from mkdocs-awesome-pages-plugin)
+#5 3.963   Downloading natsort-8.4.0-py3-none-any.whl.metadata (21 kB)
+#5 4.023 Collecting wcmatch>=7 (from mkdocs-awesome-pages-plugin)
+#5 4.058   Downloading wcmatch-8.5.2-py3-none-any.whl.metadata (4.8 kB)
+#5 4.065 Requirement already satisfied: htmlmin2>=0.1.13 in /usr/local/lib/python3.11/site-packages (from mkdocs-minify-plugin) (0.1.13)
+#5 4.067 Requirement already satisfied: jsmin>=3.0.1 in /usr/local/lib/python3.11/site-packages (from mkdocs-minify-plugin) (3.0.1)
+#5 4.069 Requirement already satisfied: csscompressor>=0.9.5 in /usr/local/lib/python3.11/site-packages (from mkdocs-minify-plugin) (0.9.5)
+#5 4.076 Requirement already satisfied: GitPython in /usr/local/lib/python3.11/site-packages (from mkdocs-git-revision-date-localized-plugin) (3.1.43)
+#5 4.077 Requirement already satisfied: babel>=2.7.0 in /usr/local/lib/python3.11/site-packages (from mkdocs-git-revision-date-localized-plugin) (2.14.0)
+#5 4.152 Collecting pytz (from mkdocs-git-revision-date-localized-plugin)
+#5 4.209   Downloading pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
+#5 4.356 Collecting pybtex>=0.22 (from mkdocs-bibtex)
+#5 4.424   Downloading pybtex-0.24.0-py2.py3-none-any.whl.metadata (2.0 kB)
+#5 4.464 Collecting pypandoc>=1.5 (from mkdocs-bibtex)
+#5 4.500   Downloading pypandoc-1.13-py3-none-any.whl.metadata (16 kB)
+#5 4.511 Requirement already satisfied: requests>=2.8.1 in /usr/local/lib/python3.11/site-packages (from mkdocs-bibtex) (2.31.0)
+#5 4.544 Collecting validators>=0.19.0 (from mkdocs-bibtex)
+#5 4.577   Downloading validators-0.28.1-py3-none-any.whl.metadata (3.6 kB)
+#5 4.768 Collecting setuptools>=68.0.0 (from mkdocs-bibtex)
+#5 4.823   Downloading setuptools-69.5.1-py3-none-any.whl.metadata (6.2 kB)
+#5 4.986 Collecting beautifulsoup4>=4.6.3 (from mkdocs-mermaid2-plugin)
+#5 5.017   Downloading beautifulsoup4-4.12.3-py3-none-any.whl.metadata (3.8 kB)
+#5 5.048 Collecting jsbeautifier (from mkdocs-mermaid2-plugin)
+#5 5.080   Downloading jsbeautifier-1.15.1.tar.gz (75 kB)
+#5 5.112      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.6/75.6 kB 2.4 MB/s eta 0:00:00
+#5 5.133   Installing build dependencies: started
+#5 7.882   Installing build dependencies: finished with status 'done'
+#5 7.883   Getting requirements to build wheel: started
+#5 8.397   Getting requirements to build wheel: finished with status 'done'
+#5 8.399   Installing backend dependencies: started
+#5 10.23   Installing backend dependencies: finished with status 'done'
+#5 10.23   Preparing metadata (pyproject.toml): started
+#5 10.74   Preparing metadata (pyproject.toml): finished with status 'done'
+#5 10.74 Requirement already satisfied: pymdown-extensions>=8.0 in /usr/local/lib/python3.11/site-packages (from mkdocs-mermaid2-plugin) (10.7.1)
+#5 10.79 Collecting soupsieve>1.2 (from beautifulsoup4>=4.6.3->mkdocs-mermaid2-plugin)
+#5 10.82   Downloading soupsieve-2.5-py3-none-any.whl.metadata (4.7 kB)
+#5 10.85 Requirement already satisfied: click>=7.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (8.1.7)
+#5 10.85 Requirement already satisfied: ghp-import>=1.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (2.1.0)
+#5 10.85 Requirement already satisfied: jinja2>=2.11.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (3.1.3)
+#5 10.85 Requirement already satisfied: markdown>=3.2.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (3.6)
+#5 10.85 Requirement already satisfied: markupsafe>=2.0.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (2.1.5)
+#5 10.85 Requirement already satisfied: mergedeep>=1.3.4 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (1.3.4)
+#5 10.85 Requirement already satisfied: packaging>=20.5 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (24.0)
+#5 10.85 Requirement already satisfied: pathspec>=0.11.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (0.12.1)
+#5 10.86 Requirement already satisfied: platformdirs>=2.2.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (4.2.0)
+#5 10.86 Requirement already satisfied: pyyaml-env-tag>=0.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (0.1)
+#5 10.86 Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (6.0.1)
+#5 10.86 Requirement already satisfied: watchdog>=2.0 in /usr/local/lib/python3.11/site-packages (from mkdocs>=1->mkdocs-awesome-pages-plugin) (4.0.0)
+#5 11.01 Collecting latexcodec>=1.0.4 (from pybtex>=0.22->mkdocs-bibtex)
+#5 11.04   Downloading latexcodec-3.0.0-py3-none-any.whl.metadata (4.9 kB)
+#5 11.05 Requirement already satisfied: six in /usr/local/lib/python3.11/site-packages (from pybtex>=0.22->mkdocs-bibtex) (1.16.0)
+#5 11.07 Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (3.3.2)
+#5 11.07 Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (3.6)
+#5 11.08 Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (2.2.1)
+#5 11.08 Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/site-packages (from requests>=2.8.1->mkdocs-bibtex) (2024.2.2)
+#5 11.27 Collecting bracex>=2.1.1 (from wcmatch>=7->mkdocs-awesome-pages-plugin)
+#5 11.30   Downloading bracex-2.4-py3-none-any.whl.metadata (3.6 kB)
+#5 11.32 Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/local/lib/python3.11/site-packages (from GitPython->mkdocs-git-revision-date-localized-plugin) (4.0.11)
+#5 11.34 Collecting editorconfig>=0.12.2 (from jsbeautifier->mkdocs-mermaid2-plugin)
+#5 11.37   Downloading EditorConfig-0.12.4.tar.gz (13 kB)
+#5 11.38   Installing build dependencies: started
+#5 13.55   Installing build dependencies: finished with status 'done'
+#5 13.55   Getting requirements to build wheel: started
+#5 13.98   Getting requirements to build wheel: finished with status 'done'
+#5 13.98   Installing backend dependencies: started
+#5 15.57   Installing backend dependencies: finished with status 'done'
+#5 15.57   Preparing metadata (pyproject.toml): started
+#5 16.01   Preparing metadata (pyproject.toml): finished with status 'done'
+#5 16.03 Requirement already satisfied: python-dateutil>=2.8.1 in /usr/local/lib/python3.11/site-packages (from ghp-import>=1.0->mkdocs>=1->mkdocs-awesome-pages-plugin) (2.9.0.post0)
+#5 16.04 Requirement already satisfied: smmap<6,>=3.0.1 in /usr/local/lib/python3.11/site-packages (from gitdb<5,>=4.0.1->GitPython->mkdocs-git-revision-date-localized-plugin) (5.0.1)
+#5 16.14 Downloading mkdocs_awesome_pages_plugin-2.9.2-py3-none-any.whl (14 kB)
+#5 16.18 Downloading mkdocs_git_revision_date_localized_plugin-1.2.5-py3-none-any.whl (21 kB)
+#5 16.21 Downloading mkdocs_bibtex-2.15.0-py3-none-any.whl (11 kB)
+#5 16.24 Downloading mkdocs_mermaid2_plugin-1.1.1-py3-none-any.whl (10 kB)
+#5 16.28 Downloading beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+#5 16.33    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.9/147.9 kB 2.8 MB/s eta 0:00:00
+#5 16.39 Downloading natsort-8.4.0-py3-none-any.whl (38 kB)
+#5 16.45 Downloading pybtex-0.24.0-py2.py3-none-any.whl (561 kB)
+#5 16.58    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 561.4/561.4 kB 4.6 MB/s eta 0:00:00
+#5 16.61 Downloading pypandoc-1.13-py3-none-any.whl (21 kB)
+#5 16.64 Downloading setuptools-69.5.1-py3-none-any.whl (894 kB)
+#5 16.73    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 894.6/894.6 kB 10.1 MB/s eta 0:00:00
+#5 16.76 Downloading validators-0.28.1-py3-none-any.whl (39 kB)
+#5 16.80 Downloading wcmatch-8.5.2-py3-none-any.whl (39 kB)
+#5 16.83 Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+#5 16.89    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 kB 10.4 MB/s eta 0:00:00
+#5 16.92 Downloading bracex-2.4-py3-none-any.whl (11 kB)
+#5 16.99 Downloading latexcodec-3.0.0-py3-none-any.whl (18 kB)
+#5 17.09 Downloading soupsieve-2.5-py3-none-any.whl (36 kB)
+#5 17.11 Building wheels for collected packages: mkdocs-img2fig-plugin, jsbeautifier, editorconfig
+#5 17.11   Building wheel for mkdocs-img2fig-plugin (setup.py): started
+#5 18.00   Building wheel for mkdocs-img2fig-plugin (setup.py): finished with status 'done'
+#5 18.00   Created wheel for mkdocs-img2fig-plugin: filename=mkdocs_img2fig_plugin-0.9.3-py3-none-any.whl size=3483 sha256=6736a85e28cc5cdc5f2c60871cb094c67f2360a40c1480a6efbb89f4f3e25dcc
+#5 18.00   Stored in directory: /tmp/pip-ephem-wheel-cache-bsfp4fam/wheels/c5/b5/48/c077f6fbabf74f82954a2f5a6441d6c0886531088f6d84a309
+#5 18.00   Building wheel for jsbeautifier (pyproject.toml): started
+#5 18.58   Building wheel for jsbeautifier (pyproject.toml): finished with status 'done'
+#5 18.58   Created wheel for jsbeautifier: filename=jsbeautifier-1.15.1-py3-none-any.whl size=94708 sha256=47b6e6fef74cba845a2cbb8f049772b1a611345c6e804ae4d05bdcadd15d863e
+#5 18.58   Stored in directory: /tmp/pip-ephem-wheel-cache-bsfp4fam/wheels/32/eb/d8/07a66b0cf535ed05084d0b9a920b89e35f20512a5e28e615ca
+#5 18.58   Building wheel for editorconfig (pyproject.toml): started
+#5 19.08   Building wheel for editorconfig (pyproject.toml): finished with status 'done'
+#5 19.08   Created wheel for editorconfig: filename=EditorConfig-0.12.4-py3-none-any.whl size=16361 sha256=44704856417a7243a9bcd3fb41746ac211485df50067a8bb6b59263bfaddb15a
+#5 19.08   Stored in directory: /tmp/pip-ephem-wheel-cache-bsfp4fam/wheels/d8/d7/36/17a1b838b1a805065c05529b1607ea4df55d5923dcdaf9cf7b
+#5 19.08 Successfully built mkdocs-img2fig-plugin jsbeautifier editorconfig
+#5 19.30 Installing collected packages: pytz, editorconfig, validators, soupsieve, setuptools, pypandoc, natsort, latexcodec, jsbeautifier, bracex, wcmatch, pybtex, beautifulsoup4, mkdocs-mermaid2-plugin, mkdocs-img2fig-plugin, mkdocs-git-revision-date-localized-plugin, mkdocs-bibtex, mkdocs-awesome-pages-plugin
+#5 19.52   Attempting uninstall: setuptools
+#5 19.53     Found existing installation: setuptools 65.5.1
+#5 19.55     Uninstalling setuptools-65.5.1:
+#5 19.75       Successfully uninstalled setuptools-65.5.1
+#5 20.81 Successfully installed beautifulsoup4-4.12.3 bracex-2.4 editorconfig-0.12.4 jsbeautifier-1.15.1 latexcodec-3.0.0 mkdocs-awesome-pages-plugin-2.9.2 mkdocs-bibtex-2.15.0 mkdocs-git-revision-date-localized-plugin-1.2.5 mkdocs-img2fig-plugin-0.9.3 mkdocs-mermaid2-plugin-1.1.1 natsort-8.4.0 pybtex-0.24.0 pypandoc-1.13 pytz-2024.1 setuptools-69.5.1 soupsieve-2.5 validators-0.28.1 wcmatch-8.5.2
+#5 20.81 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#5 DONE 21.2s
 
 #6 exporting to image
 #6 exporting layers
 #6 exporting layers 0.3s done
-#6 writing image sha256:4e6780cbaed5ee90dbea0a5a9ef90390e5cc35a8deaab77e16b1a5d6afc0420b done
+#6 writing image sha256:c7da7e40f6a39ef35234319283feaaca9f3e037cfe680a6518be39ad3caf92cc done
 #6 naming to docker.io/jferjan/mkdocs-material:1 0.0s done
-#6 DONE 0.4s
+#6 DONE 0.3s
 
 What's Next?
   View summary of image vulnerabilities and recommendations → docker scout quickview

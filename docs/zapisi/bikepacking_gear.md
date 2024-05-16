@@ -17,7 +17,7 @@ Feel free to delve into the details, compare it with your own setup, and find th
 
 ## Bike
 
-![Me and my bike](trek.jpg)
+![Me and my bike](https://lh3.googleusercontent.com/pw/AP1GczPUvVmwY_MdfFQCyj8htmqpwXyNjmXX71HjvS4b2s7Rs1fBwrYsfllIAtGQmdH3RC4W9-wE5MSjIiFwLJcJhkusOvKg17TDx8pBE7iCEj3rzpKAUl1hAwUBUcl6wGbCo5DtUWvwik_gmkXCwav9UpEVCA=w1623-h913-s-no-gm?authuser=0 "Me and my bike"){referrerpolicy="no-referrer"}
 
 **Trek 7000 ZX Dragonfly Green (Alpha ZX aluminum)** - year 1999
 
