@@ -171,6 +171,24 @@ Savskih 50 je prireditev, ki združuje vse kolesarje in raste iz leta v leto. Ne
 
 [:material-bike-fast: GPX 2022](https://www.komoot.com/tour/994934987)&emsp;[:material-bike-fast: GPX 2023](https://www.komoot.com/tour/1393013069)
 
+### Epic Rides
+
+![Epic Rides](https://lh3.googleusercontent.com/pw/AP1GczNJPe_sqL4KHa87NNLkVh2sTT7wR1UmJhHGvONQv0pgFjo33imYp1H7dWT3S3ap92DyNtz_kZ3qMb_MjKH_aF9AEo1cK4SrcQvPPwwDsqSDuMXrIIODwbtmvXJrRfHFUTetHXbBHxH3qxbO00P1NMWiPA=w1244-h522-s-no-gm?authuser=0 "Epic Rides"){referrerpolicy="no-referrer"}
+
+Kolesarsko sezono 2024 so zaznamovale udeležbe na dogodkih pod imenom [Epic Rides](https://www.adriabike.hr/epic-rides/). Gre za družabne kolesarske dogodke v organizaciji hrvaškega Adriabike. Skupno tem dogodkom je, da so netekmovalni, trase so pretežno makedamske, dolge okoli 50km z manj kot 1000m višincev. Organizator poskrbi za označevanje trase, okrepčilno postajo ter pijačo in sendvič v cilju. Dogodka se ponavadi udeleži okoli 150 kolesarjev, tako da na progi in v cilju nikakor ni dolgčas.
+
+V 2024 se mi je uspelo udeležiti treh takšnih dogodkov in vsakič podaljšati enodnevni dogodek v družabno vikend dogodivščino:
+
+- Epic Rides Labin/Istra - 
+[:material-bike-fast: GPX](https://www.komoot.com/tour/1480121283)
+
+- Epic Rides Krk/Njivice - 
+[:material-bike-fast: GPX](https://www.komoot.com/tour/1525549601)
+
+- Epic Rides Paklenica/Zrmanja - 
+[:material-bike-fast: GPX](https://www.komoot.com/tour/1588094382)
+
+
 
 ## Commute
 Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Nič čakanja, iskanja parkinga ipd. Kolo za dnevne opravke in migracije uporabljam že od osnovne šole dalje. Ko je dež uporabim pelerino in gamaše. Pozimi jakno, kapo in rokavice. Ceste in kolesarske so prevozne celo leto, izjema je mogoče le dan ali dva ko/če zapade večja količina snega.
