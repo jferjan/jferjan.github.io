@@ -22,8 +22,8 @@ Feel free to delve into the details, compare it with your own setup, and find th
 **Trek 7000 ZX Dragonfly Green (Alpha ZX aluminum)** - year 1999
 
 ??? Components
-    - front tire - Continental double fighter 26 x 1.9
-    - rear tire - Continental double fighter 26 x 1.9
+    - front tire - Continental Race King Protection 26 x 2.2 Folding / Continental double fighter 26 x 1.9
+    - rear tire - Continental Race King Protection 26 x 2.2 Folding / Continental double fighter 26 x 1.9
     - spokes - DT stainless steel, 1.8mm straight gauge, Brass nipples
     - fork - Rock Shox Judy XT (80mm travel)
     - front rim - Bontrager Corvair, 28-hole
@@ -31,8 +31,7 @@ Feel free to delve into the details, compare it with your own setup, and find th
     - crank Shimano BB-UN52, 113mm spindle
     - BB shell width 73mm English
     - crankset - ICON Flywheel, 22/32/44 teeth
-    - rear chainring - 9-speed, 11 - 32 teeth
-    - rear spoke protection - YF-FH60 32T-32H
+    - rear chainring - Shimano HG-400 9-speed, 11 - 34 teeth
     - front derailleur - Shimano LX, top-pull/clamp-on 35mm
     - rear derailleur - Shimano XT
     - bracket for gearbox - Part n. 230026
@@ -48,7 +47,7 @@ Feel free to delve into the details, compare it with your own setup, and find th
     - headset - 1 1/8" threadless Aheadset ST
     - handles - TranzX alloy 6061
     - seat - Brooks B17
-    - chain - Shimano CN-HG72, 1/2 x 3/32"
+    - chain - Shimano CN-HG93
     - combined pedals - Shimano PD-T8000
     - brakes - Avid 1D-10 brakes
     - brake pads - DT-SWISS (back), Shimano-XT (front)
