@@ -195,10 +195,10 @@ Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Ni
 
 ## Vsi moji bicikli
 - [X] Pony - prvo kolo, še vedno pri hiši
-- [ ] BMX - ko smo gledali film bmx banditi je bila izbira samo še bmx. Moj je bil moder, na belanci je imel elektronsko hupo z različnimi zvonenji. Top šit!... dokler mi ga niso ukradili medtem, ko se šel na judo.
+- [ ] BMX - ko smo gledali film bmx banditi je bila izbira samo še bmx. Moj je bil moder, na belanci je imel elektronsko hupo z različnimi zvonenji. Top šit!... dokler mi ga niso ukradili medtem, ko sem šel na judo.
 - [ ] Senior - Modri Rog lepotec s friction shifterji. Tudi tega so mi žal ukradli.
 - [X] VEB Company - Prvi malce bolj resen bicikel. CroMoly okvir, Shimano Alivio oprema. S tem biciklom sem pričel s potovanji. Še danes krasi steno v garaži. Vmes so mi ga enkrat skoraj ukradli, sem ga našel v bližini šole v grmovju z delno prežagano ključavnico. 
-- [X] Študentski "plenh-dš" - V to kategorijo štejem razmajane kovinske bicikle, ki sem jih za commute uporabljal v študentskih letih. Kupoval sem jih na policijskih dražbah, s servisiranjem pa se nisem ukvarjal, ker je bilo ceneje kupiti novo kolo na naslednji dražbi. Še danes se mi dva valjata doma. Enega sem že očistil in spravil v vozno stanje, drugi pa še čaka, da se ga usmilim. 
+- [X] Študentski "plenh-dš" - V to kategorijo štejem razmajane kovinske bicikle, ki sem jih za commute uporabljal v študentskih letih. Kupoval sem jih na policijskih dražbah, s servisiranjem pa se nisem ukvarjal, ker je bilo ceneje kupiti novo kolo na naslednji dražbi. Še danes se mi dva valjata doma. Pred kratkim sem ju očistil in spravil v vozno stanje.
 - [X] Douglas aka [Drek](https://photos.app.goo.gl/Mo29qE47ZNdUWNQq6) - Beden kovinski bicikel z zanič vilico, grip shifti in SIS opremo. Dolgo časa sta se na njemu nabirala rja in prah, dokler se ga nisem usmilil in ga obnovil. Po novem se imenuje Drek.
 - [X] [Trek 7000 ZX Dragonfly Green](../bikepacking_gear/#bike)
 
@@ -208,7 +208,7 @@ Poleg naštetih koles so v družini še tri kolesa od žene in pet od otrok. Ver
 
 ### [Bikepacking gear](../bikepacking_gear/)
 
-Zapis o kolesarski opremi, ki jo uporabljam na potovanjih je v angleščini. Razlog za angleški zapis je v tem, da na zapisu linkam kup opreme in uporabljam affiliate povezave. Za tak način objave sem se odločil zato, da raziščem način in potencial amazonovega partnerskega programa.
+Zapis o kolesarski opremi, ki jo uporabljam na potovanjih je v angleščini. Razlog za angleški zapis je v tem, da na zapisu linkam kup opreme in uporabljam affiliate povezave. Za tak način objave sem se odločil zato, da raziščem način in potencial amazonovega partnerskega programa. Update: se ne izplača, sem se pa nekaj novega naučil.
 
 ### Nosilec za 4
 Thule velospace je nova družinska pridobitev. Zadeva se obnese odlično. Nič več matranja z dvigovanjem koles na streho. Bicikle za vso družino sedaj brez težav transportiramo naokoli. Na ta način se se nam zelo razširile možnosti za družinske kolesarske izlete.
