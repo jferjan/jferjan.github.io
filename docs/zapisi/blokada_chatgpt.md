@@ -11,7 +11,7 @@ Objavljate kaj takšnega, za kar ne želite, da se znajde v rezultatih prihodnji
 
 ChatGPT pajka, ki sliši na ime **GPTBot** lahko dokaj enstavno blokirate.
 
-## Blokada z Robots.txt daoteko.
+## Blokada z Robots.txt datoteko.
 
 V `robots.txt` dodamo: 
 
