@@ -8,7 +8,7 @@ tags:
 Funkcionalnost GitHub actions sem stestiral na enostavnem primeru. Zadal sem si nalogo, da v repozitoruju [jferjan/smrekca](https://github.com/jferjan/smrekca) :material-github: vzpostavim avtomatiziran CI workflow, ki bo ob spremembah kode repozitorija zagnal avtomatizirano izgradnjo Docker slike `jferjan/smrekca:latest` in jo naložil v oddaljeni repozitorij Docker Hub.
 
 
-## 1. Ustvarjanje žetona na DockerHub
+## 1. Narediš žeton na DockerHub
 
 V nastavitvah Docker Hub računa si ustvariš *"Personal access token"*
 https://app.docker.com/settings/personal-access-tokens
@@ -17,7 +17,7 @@ https://app.docker.com/settings/personal-access-tokens
 
 **Scope:** Read & Write
 
-## 2. Dodajanje skrivnosti v GitHub repozitorij
+## 2. Dodaš skrivnosti v GitHub repozitorij
 
 V GitHUb repozitoriju greš v nastavitve repozitorija: 
 
