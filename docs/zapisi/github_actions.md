@@ -5,12 +5,12 @@ tags:
 
 # Testiranje GitHub Actions
 
-Funkcionalnost GitHub actions sem stestiral na enostavnem primeru. Zadal sem si nalogo, da v repozitoruju [jferjan/smrekca](https://github.com/jferjan/smrekca) :material-github: vzpostavim avtomatiziran CI workflow, ki bo ob spremembah kode repozitorija zagnal avtomatizirano izgradnjo Docker slike `jferjan/smrekca:latest` in jo iz naložil v oddaljeni repozitorij Docker Hub.
+Funkcionalnost GitHub actions sem stestiral na enostavnem primeru. Zadal sem si nalogo, da v repozitoruju [jferjan/smrekca](https://github.com/jferjan/smrekca) :material-github: vzpostavim avtomatiziran CI workflow, ki bo ob spremembah kode repozitorija zagnal avtomatizirano izgradnjo Docker slike `jferjan/smrekca:latest` in jo naložil v oddaljeni repozitorij Docker Hub.
 
 
 ## 1. Ustvarjanje žetona na DockerHub
 
-V nastavitvah DockerHub računa si ustvariš *"Personal access token"*
+V nastavitvah Docker Hub računa si ustvariš *"Personal access token"*
 https://app.docker.com/settings/personal-access-tokens
 
 **Description:** GitHub
@@ -21,7 +21,7 @@ https://app.docker.com/settings/personal-access-tokens
 
 V GitHUb repozitoriju greš v nastavitve repozitorija: 
 
-**Settings > Secrets and Variables > Actions**
+"*Settings > Secrets and Variables > Actions*"
 
 Dodaš dve skrivnosti. Gumb "*New Repository Secret*".
 
