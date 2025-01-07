@@ -52,7 +52,9 @@ Feel free to delve into the details, compare it with your own setup, and find th
     - brakes - Avid 1D-10 brakes
     - brake pads - DT-SWISS (back), Shimano-XT (front)
 
-I've had this beauty since high school.  I take good care of it and it still works without any problems. In fact, it has become so close to my heart that despite the desire for a new bike, I cannot find a suitable one that could replace the one I have. I know 26 inches is old fashioned by today's standards, but this is how I roll.
+I've had this beauty since high school. I take good care of it and it still works without any problems. In fact, it has become so close to my heart that despite the desire for a new bike, I cannot find a suitable one that could replace the one I have. I know 26 inches is old fashioned by today's standards, but this is how I roll. 
+
+Update 2024: just bought a new/used bike - Trek Supercaliber 9.9 XX1 AXS ...yeay! :smile:
 
 ## Bags/carriers
 

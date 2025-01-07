@@ -169,7 +169,11 @@ Savskih 50 je prireditev, ki združuje vse kolesarje in raste iz leta v leto. Ne
 
 [![Savskih 50](https://lh3.googleusercontent.com/pw/ABLVV87lljgX15svt-VWuq9H-D-J_P4YTKxQ4geuQHslBx0UQ0N6WN17kfguyURvGFQ8iPJ3yMZsnsLYeaAk11YhF_Wuq4YM64CkUDnKqV1GfgM7VSdx1stk6ftSaZqTU3AMOINXSgxT7SavWiTUIAr18dmVLA=w1280-h720-s-no-gm?authuser=0 "Savskih 50"){referrerpolicy="no-referrer"}](https://youtu.be/Y68clq8TH9E)
 
-[:material-bike-fast: GPX 2022](https://www.komoot.com/tour/994934987)&emsp;[:material-bike-fast: GPX 2023](https://www.komoot.com/tour/1393013069)
+- [:material-bike-fast: GPX 2022](https://www.komoot.com/tour/994934987)&emsp;[:material-newspaper: Reportaža 2022](https://www.mtb.si/reportaze/savskih-50-dan-zatem/)
+
+- [:material-bike-fast: GPX 2023](https://www.komoot.com/tour/1393013069)&emsp;[:material-newspaper: Reportaža 2023](https://www.mtb.si/reportaze/savskih50-mahovo-porocilo/)
+
+- [:material-bike-fast: GPX 2024](https://www.komoot.com/tour/1988776180)&emsp;[:material-newspaper: Reportaža 2024](https://www.mtb.si/novice/savskih-50-vii-se-ena-kicasta-izvedba-z-blatnim-dodatkom/)    
 
 ### Epic Rides
 
@@ -200,7 +204,8 @@ Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Ni
 - [X] VEB Company - Prvi malce bolj resen bicikel. CroMoly okvir, Shimano Alivio oprema. S tem biciklom sem pričel s potovanji. Še danes krasi steno v garaži. Vmes so mi ga enkrat skoraj ukradli, sem ga našel v bližini šole v grmovju z delno prežagano ključavnico. 
 - [X] Študentski "plenh-dš" - V to kategorijo štejem razmajane kovinske bicikle, ki sem jih za commute uporabljal v študentskih letih. Kupoval sem jih na policijskih dražbah, s servisiranjem pa se nisem ukvarjal, ker je bilo ceneje kupiti novo kolo na naslednji dražbi. Še danes se mi dva valjata doma. Pred kratkim sem ju očistil in spravil v vozno stanje.
 - [X] Douglas aka [Drek](https://photos.app.goo.gl/Mo29qE47ZNdUWNQq6) - Beden kovinski bicikel z zanič vilico, grip shifti in SIS opremo. Dolgo časa sta se na njemu nabirala rja in prah, dokler se ga nisem usmilil in ga obnovil. Po novem se imenuje Drek.
-- [X] [Trek 7000 ZX Dragonfly Green](../bikepacking_gear/#bike)
+- [X] [Trek 7000 ZX Dragonfly Green](../bikepacking_gear/#bike) - S tem lepotcem sem v preteklih letih naredil veliko lepih spominov.
+- [X] [Trek Supercaliber 9.9. XX1 AXS 2022 Red Project One](https://www.trekbikes.com/international/en_IN_TL/bikes/mountain-bikes/cross-country-mountain-bikes/supercaliber/supercaliber-9-9-xx1-axs-gen-1/p/37041/) - Po 15 letih končno novo kolo, ki bo počasi nadomestilo Trek 7000. No, bicikel ni čisto nov, pred menoj ga je v sezoni 2022 tekmovalno vozil [Rok Naglič](https://www.youtube.com/watch?v=H1d8KOkUAkc).
 
 Poleg naštetih koles so v družini še tri kolesa od žene in pet od otrok. Verjetno vse skupaj malo preveč. :)
 

@@ -9,3 +9,8 @@
 ## LinkedIN profil
 
 Za več informacij si oglejte moj [LinkedIN profil](https://www.linkedin.com/in/ferjan/). 
+
+## Zapisi
+
+Občasno objavim tudi kakšen [zapis](zapisi/). 
+Vabljeni k branju.
