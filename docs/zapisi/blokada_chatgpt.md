@@ -28,5 +28,5 @@ Disallow: /
 
 Postopajte podobno kot pri GPTBotu. Nekaj napotkov najdete na sledečih povezavah.
 
-- https://github.com/ai-robots-txt/ai.robots.txt
-- https://www.cert.si/si-cert-2025-04/
+- [https://github.com/ai-robots-txt/ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt)
+- [https://www.cert.si/si-cert-2025-04/](https://www.cert.si/si-cert-2025-04/)
