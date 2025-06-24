@@ -81,7 +81,7 @@ Omejitev na občine, #ostanidoma  in podobno. Potreboval sem kratek odklop. in k
 [:material-bike-fast: GPX](https://www.komoot.com/tour/320811784)
 
 
-### S Tianom s kolesom - 100 km!
+### S sinom s kolesom - 100 km!
 Dvodnevna kolesarska dogodivščina s starejšim sinon - Tianom.
 Divača - Dragonja - Višnjan. Okroglih 100 km! Prenočiva na odlični lokaciji, ki je do takrat še nisem poznal.
 
@@ -89,6 +89,11 @@ Divača - Dragonja - Višnjan. Okroglih 100 km! Prenočiva na odlični lokaciji,
 
 [:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/395738934)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/396205416)
 
+Štiri leta kasneje ponovim izlet še z mlajšim sinom - Nalom.
+
+[![Na morje (100 km)](https://lh3.googleusercontent.com/pw/AP1GczNkbg2r7-1uQYDFyx_buxwJ56DxvAVJF4zC0N1Jl6ddEbvKwsgIXm-Bj8lM5tcgwjvvG_B93lObWe9PXqDoPb9GlTpw8YGAjQlkQoc9Ds-XSjvesAWS_423JnS0O3nd05IvArNdtANTyZLltSyEwKLT-g=w1470-h828-s-no-gm?authuser=0 "Na morje (100 km)"){referrerpolicy="no-referrer"}](https://youtu.be/oPQqnQ_bzWA)
+
+[:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/2285606647)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/2287404869)
 
 ### Cirkus na kolesih
 Po ovinkih izvem, da sosed Tilen, s katerim sva skupaj obiskovala že vrtec tudi rad kolesari. Vsako leto se junija odpravi s svojo družbo na kakšen večdnevni potep. Z veseljem se jim pridružim. Odpedaliramo iz LJ do Krasa, naprej v italijo, nazaj na Kras, v Istro in nazaj do Korpa. 
