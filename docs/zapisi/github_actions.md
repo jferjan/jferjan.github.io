@@ -99,6 +99,6 @@ jobs:
 
 ## 4. Preveriš delovanje
 
-Workflow `ci.yml`, ki smo ga pripravili v prejšnjem poglavju se ob izvedel ob vsaki spremembi v GitHub repozitoriju. To pomeni, da se bo prvič izvedel že ob prvem commitu datoteke `ci.yml`.
+Workflow `ci.yml`, ki smo ga pripravili v prejšnjem poglavju se bo izvedel ob vsaki spremembi v GitHub repozitoriju. To pomeni, da se bo prvič izvedel že ob prvem commitu datoteke `ci.yml`.
 
 V GitHub v repozitoriju izbereš zavihek *"Actions"* in preveriš, če se je workflow uspešno izvedel.

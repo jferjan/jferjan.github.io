@@ -24,7 +24,7 @@ Večdnevno kolesarsko potovanje v malce večji skupini RSV. Iz Ljubljane čez Ra
 ### Primorje in Istra
 Z RSV s kolesi od Divače do Savudrije. Na tej furi smo se vračali iz Kopra z zadnjm vlakom ob 19:13. Ta vlak vozi še danes (2023) ob natanko tej uri. In to dejstvo nam je prišlo v prihodnjih letih še kako prav. 
 
-V srednji šoli je bil kar nekakšen običaj, da za konec šole naložimo kolesa na vlak in se odpeljemo do Morja. Izstop Divača ali Koper, malce zažurat v kamp Lucija in čez par dni na zadnji vlak za Ljubljano. Včasih se nismo ustavili v Luciji, ampak smo podaljšali do Višnjana, Rovinja ali Pule.
+V srednji šoli je bil kar nekakšen običaj, da za konec šole naložimo kolesa na vlak in se odpeljemo do morja. Izstop Divača ali Koper, malce zažurat v kamp Lucija in čez par dni na zadnji vlak za Ljubljano. Včasih se nismo ustavili v Luciji, ampak smo podaljšali do Višnjana, Rovinja ali Pule.
 
 ### Grčija večkrat
 Grčija je bila tisto pravo kolesarsko odkritje. Logistika je bila enostavna. S kolesom na vlak do Kozine, spust do Trsta in vkrcanje na El. Venizelos. Dva žura na ladji in že si bil v Grčiji. Izstop Patras ali Igumenitsa in tako kar nekaj let zapored.
@@ -52,13 +52,13 @@ Verjetno najbol nekolelesarski kolesarski izlet. Kolo je služilo bolj kot nadom
 Duo izlet, jaz in Mare. 10 dni do tja in nazaj. Pot do Dubrovnika naju vodi čez otoke, družbo pa nama dela zvočnik domače izdelave montiran na moj prednji prtljažnik. Kondicijsko kar zahtevna pot, saj se izkaže, da so vse ceste na Jadranu speljane po sredini otokov. V bistvu je vsak otok hrib na katerega se vsaj enkrat vzpneš. 
 
 ### Istra, Cres in Krk
-Tokrat v družbi Aljaža, Petra in Marka. Ideja je, da čez prvomajske naredimo en krog čez Istro, na Krk in mogoče še Cres. Edini večdnevni izlet do sedaj, ki sem ga moral predčasno zaključiti. Koleno se mi je vnelo do te mere da sem družbo zapustil in odšepal do Rijeke na vlak.
+Tokrat v družbi Aljaža, Petra in Marka. Ideja je, da čez prvomajske naredimo en krog čez Istro, na Krk in mogoče še Cres. Edini večdnevni izlet do sedaj, ki sem ga moral predčasno zaključiti. Koleno se mi je vnelo do te mere, da sem družbo zapustil in odšepal do Rijeke na vlak.
 
 ![Istra, Cres in Krk](https://lh3.googleusercontent.com/pw/ABLVV87pa7DfCxbwB5Ovy8sZGraLnefC0Kr18_SfnXSE_XnTz0APYsTEYuMPCgcvPPdQRB7lDduqwX5nYBcsAal9WRtGsr6W-qmvV5WHHDbbBL8O2nnLUkKjyJJNDW_bGKowjT8mEXBaF8bARNOp276wsR9brw=w1435-h807-s-no-gm?authuser=0 "Istra, Cres in Krk"){referrerpolicy="no-referrer"}
 
 
 ### Andaluzija (Španija)
-Več let kasneje, ko se je umirilo obdobje jadranja un potapljanja, so me sprejeli v Novakovo kolesarsko družbo. Fantje so me hitro naučili, kako se gre s kolesom na letalo.  In zadeva je nadvse uporabna. Zaenkrat sem s to družbo odpedaliral del Španije in del Turčije, se pa že veselim, da se odpravimo še kam.
+Več let kasneje, ko se je umirilo obdobje jadranja in potapljanja, so me sprejeli v Novakovo kolesarsko družbo. Fantje so me hitro naučili, kako se gre s kolesom na letalo. Zadeva je nadvse uporabna. Zaenkrat sem s to družbo odpedaliral del Španije in del Turčije, se pa že veselim, da se odpravimo še kam.
 
 [![Andaluzija (Španija)](https://lh3.googleusercontent.com/pw/ABLVV87qr9jNOdsz_ub_C993_t6lPtH06wicWNFHf5HQ1ERjFGYtTg3uStdVyIn48TZtB916H9tjv0oZUh4kbs8st93s_NP8LfRJAWMqR35KxmcxNUjeZvpTDG2A5lbeXIjyfP-dfm1V_oMQvcjpFUbg1z3FNg=w1280-h720-s-no-gm?authuser=0 "Andaluzija (Španija)"){referrerpolicy="no-referrer"}](https://photos.app.goo.gl/ucwG4ze115bMWvdc6)
 
@@ -66,7 +66,7 @@ Več let kasneje, ko se je umirilo obdobje jadranja un potapljanja, so me spreje
 
 
 ### Kapadokija (Turčija)
-Druga fura z ekipo iz Španije. Tokrat sta se nam pridružita še dva člana. V enem tednu odfuramo en lep krog po Kapadokiji. Za nameček se podamo še v tretjo dimenzijo.
+Druga fura z ekipo iz Španije. Tokrat sta se nam pridružita še dva člana. V enem tednu odfuramo lep krog po Kapadokiji. Za nameček se podamo še v tretjo dimenzijo.
 
 [![Kapadokija (Turčija) - Trailer](https://lh3.googleusercontent.com/pw/ABLVV85_gcSkl7BBaF5ssbdJDdW19Onxt-HOxImii9cJn3cU_0KGJlsbZscRZcxijTdoOwfFCg35x-oHMJRKBsGhF4bSCp7964dbCaoitfnhbqZza00Amf8jbVwvlrkVVgBRKCAWHaBx2lH4m1d8ppEbhGfbJw=w1280-h720-s-no-gm?authuser=0 "Kapadokija (Turčija) - Trailer"){referrerpolicy="no-referrer"}](https://youtu.be/6Dsyb4W8TIc)
 
@@ -74,7 +74,7 @@ Druga fura z ekipo iz Španije. Tokrat sta se nam pridružita še dva člana. V 
 
 
 ### Na morje (med korono)
-Omejitev na občine, #ostanidoma  in podobno. Potreboval sem kratek odklop. in kaj je lepšega kot en krog proti morju. Nazaj pa seveda z zadnjim vlakom iz Kopra. Zaradi policijske ure nisem prepričan, da je izstop na postaji v centru dobra ideja. Izstopim raje na Viču in smuk do doma čez Tivoli.
+Omejitev na občine, #ostanidoma in podobno. Potreboval sem kratek odklop. in kaj je lepšega kot en krog proti morju. Nazaj pa seveda z zadnjim vlakom iz Kopra. Zaradi policijske ure nisem prepričan, da je izstop na postaji v centru dobra ideja. Izstopim raje na Viču in smuk do doma čez Tivoli.
 
 [![Na morje](https://lh3.googleusercontent.com/pw/ABLVV84dXC_bkaSilx5jOJYuPG6oiQ95Bu0Qg3GNCRNtb929IWmdJqXNMCJsvQ1sTSlB--_mzejbtkSY1H5RpokM9_aEq0OYRWCjUvzOTf06fU335Iw8f04SX5hHYINiN9hVfLdFLFV--4MqONLM7slKUeR-BQ=w1280-h720-s-no-gm?authuser=0 "Na morje"){referrerpolicy="no-referrer"}](https://youtu.be/2yuDtaAFS7g)
 
@@ -96,7 +96,7 @@ Divača - Dragonja - Višnjan. Okroglih 100 km! Prenočiva na odlični lokaciji,
 [:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/2285606647)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/2287404869)
 
 ### Cirkus na kolesih
-Po ovinkih izvem, da sosed Tilen, s katerim sva skupaj obiskovala že vrtec tudi rad kolesari. Vsako leto se junija odpravi s svojo družbo na kakšen večdnevni potep. Z veseljem se jim pridružim. Odpedaliramo iz LJ do Krasa, naprej v italijo, nazaj na Kras, v Istro in nazaj do Korpa. 
+Po ovinkih izvem, da sosed Tilen, s katerim sva skupaj obiskovala že vrtec, tudi rad kolesari. Vsako leto se junija odpravi s svojo družbo na kakšen večdnevni potep. Z veseljem se jim pridružim. Odpedaliramo iz LJ do Krasa, naprej v Italijo, nazaj na Kras, v Istro in nazaj do Korpa. 
 
 ![Cirkus na kolesih](https://lh3.googleusercontent.com/pw/ABLVV87lw7g2B6w-nCRVrzvjLJiM_zfZPbEt-g8PtQtQefy-ITLFzHfA22dktnGZ7dd2Ek6voPAvVUrNjFDMMXaX-aB228Gku4LLkuVeMYANYJaUFjK8Vz_hRf4_JznArJ1VzYiKJWERD-h-fSLjq_qqb9Bk1A=w1470-h826-s-no-gm?authuser=0 "Cirkus na kolesih"){referrerpolicy="no-referrer"}
 
@@ -123,14 +123,14 @@ Seveda niso vse ture večdnevne. Včasih paše tudi kakšna enodnevna. Vseh se s
 
 
 ### Korona tura
-100km pretežno makedamskih poti in cca 2000 višincev. Lep izzv za začetek sezone.
+100 km pretežno makedamskih poti in cca 2000 višincev. Lep izzv za začetek sezone.
 
 [![Korona tura](https://lh3.googleusercontent.com/pw/ABLVV86ibPyZj6mWygrKc6l7ovaKqsMD9T3Wd9w9fIsQthiYLfeITDEM093precLIQ4H083Zs-lCk_6nEok1lzd4sUwYEL3OK-uKRTGoBcfRYY185Fg3GI-w7JZu3aOg_-LTUghhS_77hGa6_xsR1err783DIA=w1280-h720-s-no-gm?authuser=0 "Korona tura"){referrerpolicy="no-referrer"}](https://youtu.be/ZAi6itTMaUI)
 
 [:material-bike-fast: GPX](https://www.komoot.com/tour/778810038)
 
 ### Dolina Radovne ...in nazaj domov
-Na vlak do Jesenic. Preko Mojstrane v dolino Radovne in nazaj domov. 90km krog za začetek sezone. 
+Na vlak do Jesenic. Preko Mojstrane v dolino Radovne in nazaj domov. 90 km krog za začetek sezone. 
 
 [![Dolina Radovne ...in nazaj domov](https://lh3.googleusercontent.com/pw/ABLVV87CXqerGeMS0qIS9dHOFvBTO_cBbpPZp30tTtOrKiG7yIMLZNETBWQb3Aq63DXu1jPLQX6GHrBLEnOlVuJrPaaxgcZ47ziGUWgOZDPFijni1H9JeHTwaFX0NALd5-UHebtGbmev651jcJ-rRdnyIzdfLA=w1280-h720-s-no-gm?authuser=0 "Dolina Radovne ...in nazaj domov"){referrerpolicy="no-referrer"}](https://youtu.be/f3UXtgwZT4k)
 
@@ -138,7 +138,7 @@ Na vlak do Jesenic. Preko Mojstrane v dolino Radovne in nazaj domov. 90km krog z
 
 
 ### Parenzana Gravel Race
-47km gravel dirka po trasi stare Istrske železnice. Zaključim [sedmi od triindavjsetih](https://photos.app.goo.gl/Jsoq8cbb7wvd176EA), oz. [četrti v svoji starostni kategoriji](https://photos.app.goo.gl/7Vvh4a8VMuYhkhSd7). Ni slabo za prvič.
+47 km gravel dirka po trasi stare Istrske železnice. Zaključim [sedmi od triindavjsetih](https://photos.app.goo.gl/Jsoq8cbb7wvd176EA), oz. [četrti v svoji starostni kategoriji](https://photos.app.goo.gl/7Vvh4a8VMuYhkhSd7). Ni slabo za prvič.
 
 [![Parenzana gravel race, 18. 2. 2023](https://lh3.googleusercontent.com/pw/ABLVV86bHAW_z4bBnXSg3Su9VCKjxM78fRRelsTb7_F1H5u1XkCSGG8fA-M8NPXFj1eqRXFN0ki-LNJweXHenf-ZMLABTtyrUTbaF7UZTl1Z4HuEi6GSY-ArZCtT9JQ2A9RPi8uPyRvRBhHBtTskVugkq3DLqw=w1280-h720-s-no-gm?authuser=0 "Parenzana gravel race, 18. 2. 2023"){referrerpolicy="no-referrer"}](https://youtu.be/ARZd6kH7PAk)
 
@@ -184,7 +184,7 @@ Savskih 50 je prireditev, ki združuje vse kolesarje in raste iz leta v leto. Ne
 
 ![Epic Rides](https://lh3.googleusercontent.com/pw/AP1GczNJPe_sqL4KHa87NNLkVh2sTT7wR1UmJhHGvONQv0pgFjo33imYp1H7dWT3S3ap92DyNtz_kZ3qMb_MjKH_aF9AEo1cK4SrcQvPPwwDsqSDuMXrIIODwbtmvXJrRfHFUTetHXbBHxH3qxbO00P1NMWiPA=w1244-h522-s-no-gm?authuser=0 "Epic Rides"){referrerpolicy="no-referrer"}
 
-Kolesarsko sezono 2024 so zaznamovale udeležbe na dogodkih pod imenom [Epic Rides](https://www.adriabike.hr/epic-rides/). Gre za družabne kolesarske dogodke v organizaciji hrvaškega Adriabike. Skupno tem dogodkom je, da so netekmovalni, trase so pretežno makedamske, dolge okoli 50km z manj kot 1000m višincev. Organizator poskrbi za označevanje trase, okrepčilno postajo ter pijačo in sendvič v cilju. Dogodka se ponavadi udeleži okoli 150 kolesarjev, tako da na progi in v cilju nikakor ni dolgčas.
+Kolesarsko sezono 2024 so zaznamovale udeležbe na dogodkih pod imenom [Epic Rides](https://www.adriabike.hr/epic-rides/). Gre za družabne kolesarske dogodke v organizaciji hrvaškega Adriabike. Skupno tem dogodkom je, da so netekmovalni, trase so pretežno makedamske, dolge okoli 50 km z manj kot 1000 m višincev. Organizator poskrbi za označevanje trase, okrepčilno postajo ter pijačo in sendvič v cilju. Dogodka se ponavadi udeleži okoli 150 kolesarjev, tako da na progi in v cilju nikakor ni dolgčas.
 
 V 2024 se mi je uspelo udeležiti treh takšnih dogodkov in vsakič podaljšati enodnevni dogodek v družabno vikend dogodivščino:
 
@@ -204,7 +204,7 @@ Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Ni
 
 ## Vsi moji bicikli
 - [X] Pony - prvo kolo, še vedno pri hiši
-- [ ] BMX - ko smo gledali film bmx banditi je bila izbira samo še bmx. Moj je bil moder, na belanci je imel elektronsko hupo z različnimi zvonenji. Top šit!... dokler mi ga niso ukradili medtem, ko sem šel na judo.
+- [ ] BMX - ko smo gledali film BMX banditi je bila izbira samo še BMX. Moj je bil moder, na belanci je imel elektronsko hupo z različnimi zvonenji. Top šit!... dokler mi ga niso ukradili medtem, ko sem šel na judo.
 - [ ] Senior - Modri Rog lepotec s friction shifterji. Tudi tega so mi žal ukradli.
 - [X] VEB Company - Prvi malce bolj resen bicikel. CroMoly okvir, Shimano Alivio oprema. S tem biciklom sem pričel s potovanji. Še danes krasi steno v garaži. Vmes so mi ga enkrat skoraj ukradli, sem ga našel v bližini šole v grmovju z delno prežagano ključavnico. 
 - [X] Študentski "plenh-dš" - V to kategorijo štejem razmajane kovinske bicikle, ki sem jih za commute uporabljal v študentskih letih. Kupoval sem jih na policijskih dražbah, s servisiranjem pa se nisem ukvarjal, ker je bilo ceneje kupiti novo kolo na naslednji dražbi. Še danes se mi dva valjata doma. Pred kratkim sem ju očistil in spravil v vozno stanje.
@@ -218,7 +218,7 @@ Poleg naštetih koles so v družini še tri kolesa od žene in pet od otrok. Ver
 
 ### [Bikepacking gear](../bikepacking_gear/)
 
-Zapis o kolesarski opremi, ki jo uporabljam na potovanjih je v angleščini. Razlog za angleški zapis je v tem, da na zapisu linkam kup opreme in uporabljam affiliate povezave. Za tak način objave sem se odločil zato, da raziščem način in potencial amazonovega partnerskega programa. Update: se ne izplača, sem se pa nekaj novega naučil.
+Zapis o kolesarski opremi, ki jo uporabljam na potovanjih je v angleščini. Razlog za angleški zapis je v tem, da na zapisu linkam kup opreme in uporabljam affiliate povezave. Za tak način objave sem se odločil zato, da raziščem način in potencial Amazonovega partnerskega programa. **Update:** Se ne izplača, sem se pa nekaj novega naučil.
 
 ### Nosilec za 4
-Thule velospace je nova družinska pridobitev. Zadeva se obnese odlično. Nič več matranja z dvigovanjem koles na streho. Bicikle za vso družino sedaj brez težav transportiramo naokoli. Na ta način se se nam zelo razširile možnosti za družinske kolesarske izlete.
+Thule velospace je nova družinska pridobitev. Zadeva se obnese odlično. Nič več matranja z dvigovanjem koles na streho. Bicikle za vso družino sedaj brez težav transportiramo naokoli. Na ta način so se nam zelo razširile možnosti za družinske kolesarske izlete.

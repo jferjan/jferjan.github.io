@@ -15,7 +15,7 @@ V osnovni šoli se je hribolazenju pridružilo še prosto plezanje in plezalni t
 Sledila so taborniška zimovanja v koči pod Bogatinom na Komni pod okriljem [Roda Sivega Volka](https://rodsivegavolka.si/). Zimovanja so bila odlična vstopnica v zimski svet pohodništva. 
 
 V srednji šoli sem opravil alpinistično pripravniško šolo v [AO PD LJ Matica](https://www.pd-ljmatica.si/odseki/ao/). 
-Obstoječe znanje prostega plezanja sem nadgradil z osnovami alpinističnega znanja. Šolo smo zaključili z vzponom na 3331 metrov visoki [Fusherkarkopf](https://photos.app.goo.gl/PFXMepbpQTd3Vwuk7). Šolo priporočam vsakemu, ki bi rad nadgradil svoje gorniško znanje ne glede na to ali se bo kasneje ukvarjal z alpinizmom ali ne. 
+Obstoječe znanje prostega plezanja sem nadgradil z osnovami alpinističnega znanja. Šolo smo zaključili z vzponom na 3331 metrov visoki [Fusherkarkopf](https://photos.app.goo.gl/PFXMepbpQTd3Vwuk7). Šolo priporočam vsakomur, ki bi rad nadgradil svoje gorniško znanje, ne glede na to ali se bo kasneje ukvarjal z alpinizmom ali ne. 
 
 V nadaljevanju povzemam par hribovskih dogodivščin...
 
