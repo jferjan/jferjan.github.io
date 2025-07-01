@@ -70,6 +70,8 @@ extra:
       link: https://www.linkedin.com/in/ferjan/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@JakaFerjan
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@fotrjaka
     - icon: fontawesome/brands/github 
       link: https://github.com/jferjan
     - icon: fontawesome/brands/docker
