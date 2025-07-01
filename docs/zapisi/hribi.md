@@ -12,7 +12,7 @@ description: Dogodivščine v hribih
 
 V osnovni šoli se je hribolazenju pridružilo še prosto plezanje in plezalni tabori v izvedbi [plezalne šole Kokalj](https://www.plezanje-kokalj.si/). 
 
-Sledila so taborniška zimovanja v koči pod Bogatinom na Komni pod okriljem [Roda Sivega Volka](https://rodsivegavolka.si/). Zimovanja so bila odlična vstopnica v zimski svet pohodništva. 
+Sledila so taborniška zimovanja v Koči pod Bogatinom na Komni pod okriljem [Roda Sivega Volka](https://rodsivegavolka.si/). Zimovanja so bila odlična vstopnica v zimski svet pohodništva. 
 
 V srednji šoli sem opravil alpinistično pripravniško šolo v [AO PD LJ Matica](https://www.pd-ljmatica.si/odseki/ao/). 
 Obstoječe znanje prostega plezanja sem nadgradil z osnovami alpinističnega znanja. Šolo smo zaključili z vzponom na 3331 metrov visoki [Fusherkarkopf](https://photos.app.goo.gl/PFXMepbpQTd3Vwuk7). Šolo priporočam vsakomur, ki bi rad nadgradil svoje gorniško znanje, ne glede na to ali se bo kasneje ukvarjal z alpinizmom ali ne. 
@@ -20,21 +20,23 @@ Obstoječe znanje prostega plezanja sem nadgradil z osnovami alpinističnega zna
 V nadaljevanju povzemam par hribovskih dogodivščin...
 
 ## Po bližnjici na rob smrti
+
 Bližnjica na Škrlatico, slaba ideja, ki si zasluži ločen zapis - **[Po bližnjici na rob smrti](rob_smrti.md)**.
 
 [![Po bližnjici na rob smrti](https://lh3.googleusercontent.com/pw/AP1GczPZTCTCmbFfdrx1x7G-c_dLtiTYkI76wclHDrf65Lac-OEDG5pvQ_Lp_2VoytmPvQP7PTsFzcw3TdVv4DfmCURyEMIWOttCUXBxjhcCtIHu-nzwRsJPKf6qhW9NuQ2pdupp-UMEu1tWPcb6pzU5lNcJTA=w937-h171-s-no-gm?authuser=0 "Po bližnjici na rob smrti"){referrerpolicy="no-referrer"}](rob_smrti.md)
+
+## Bivakiranje v snegu
+
+Nepozabna kljukica na seznamu želja  - **[Trodnevni snežni bivak na Komni](bivak_v_snegu.md)**.
+
+[![Bivak v snegu](https://lh3.googleusercontent.com/pw/AP1GczOUAtAr2j1mhQPGZnOEVGfvTOcyjxcSInLW3Vm4Vtzn9tl7Rfa3StIJ2glu0m_Y0nonx_zbOhG6-NxESt4z9TXITcMleVLWMsiW6zETs4ihsAwvWqThnU82s3O3af8NEShMlVvviXjjKajh80Kn7ULvrg=w913-h913-s-no-gm?authuser=0 "Bivak v snegu"){referrerpolicy="no-referrer"}](bivak_v_snegu.md)
+
+[:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/eAwjfiRK5bKcZvv9A)
 
 ## Deadly winter hike
 
 ...zapis sledi
 ![Deadly winter hike](https://lh3.googleusercontent.com/pw/AP1GczMIAJc3O7TWAGmXDx32xm_621ncSBt-EMzUMuZX-i90gLqBIzZ8xPLxstNQTw5CYb7i9OHWiXMyVKvGzaBQepg6hlvwNfvsCR3tJNNPeMejBB1W-cRPYtuGAH-w3uygKnlRbOvK84cfWIAD4xWNC59rEA=w1295-h913-s-no-gm?authuser=0 "Deadly winter hike"){referrerpolicy="no-referrer"}
-
-
-## Bivakiranje v snegu
-
-...zapis sledi
-![Bivakiranje v snegu](https://lh3.googleusercontent.com/pw/AP1GczOUAtAr2j1mhQPGZnOEVGfvTOcyjxcSInLW3Vm4Vtzn9tl7Rfa3StIJ2glu0m_Y0nonx_zbOhG6-NxESt4z9TXITcMleVLWMsiW6zETs4ihsAwvWqThnU82s3O3af8NEShMlVvviXjjKajh80Kn7ULvrg=w913-h913-s-no-gm?authuser=0 "Bivakiranje v snegu"){referrerpolicy="no-referrer"}
-
 
 ## Zimovanja na Komni
 
