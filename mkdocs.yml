@@ -1,4 +1,5 @@
 site_name: jaka.ferjan.net
+site_url: https://jaka.ferjan.net/
 
 nav:
     - Naslovnica: index.md

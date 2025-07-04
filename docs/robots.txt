@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /
+
+Sitemap: https://jaka.ferjan.net/sitemap.xml
