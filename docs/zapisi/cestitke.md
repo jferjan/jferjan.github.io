@@ -18,7 +18,7 @@ Spoznaj **Ferjanove avtomatične čestitke<sup>TM</sup>**. Storitev, ki prijatel
 
 
   >Da ne bo kdo narobe razumel. Svoje prijatelje za rojstni dan raje pokliči/obišči in jim čestitaj iz srca.
-  >Pričujoča storitev je namenjena zgolj učenju Google APP scripta. Gre za nekakšen "proof of concept" primer, ki sem ga uporabil spoznavanje osnov Google APP scripta. 
+  >Pričujoča storitev je namenjena zgolj učenju Google APP scripta. Gre za nekakšen "proof of concept" primer, ki sem ga uporabil za spoznavanje osnov Google APP scripta. 
 
 ## Kaj potrebujemo
 
@@ -29,9 +29,10 @@ Spoznaj **Ferjanove avtomatične čestitke<sup>TM</sup>**. Storitev, ki prijatel
     * [x] [Predloga za pošiljanje čestitke](https://docs.google.com/document/d/1IacJM0pHSt1yHQYh9XFCMD1pdDNMS_2mi1MLa9uWbwg/edit?usp=sharing) (Google Docs)
 - [x] Skripte
     * [x] [Skripta OnFormSubmit](#skripta-onformsubmit) (Google Apps Script)
-    * [x] [Skripta z API-jem za prijavo/odjavo od storitve](#skripta-z-api-jem-za-prijavoodjavo-od-storitve) (Google Apps Scrip)
-    * [x] [Skripta za pošiljanje čestitk](#skripta-za-posiljanje-cestitk) (Google Apps Scrip)
-    * [x] [Skripta za "Garbage Collection"](#skripta-za-garbage-collection) (Google Apps Scrip)
+    * [x] [Skripta z API-jem za prijavo/odjavo od storitve](#skripta-z-api-jem-za-prijavoodjavo-od-storitve) (Google Apps Script)
+    * [x] [Skripta za pošiljanje čestitk](#skripta-za-posiljanje-cestitk) (Google Apps Script)
+    * [x] [Skripta za "Garbage Collection"](#skripta-za-garbage-collection) (Google Apps Script)
+- [X] [Pravice za skripte](#pravice-za-skripte)
 - [X] Triggerji za skripte
     * [x] [Trigger za funkcijo `OnFormSubmit`](#trigger-za-funkcijo-onformsubmit)
     * [x] [Trigger za funkcijo `sendBdayWishes`](#trigger-za-funkcijo-sendbdaywishes)
@@ -362,6 +363,9 @@ var COL_TO_SEARCH = 8; // The column to search for the DELETE_VAL (Zero is first
   }
 }
 ```
+### Pravice za skripte
+
+Google Apps Script konzola nas ob prvem zagonu posamezne skipte pozove, da skripti dodelimo potrebne pravice. Skripta bo namreč upravljala z dokumenti, pošto, obrazcem, ipd. v našem imenu oz. v imenu našega Google računa. To je bil tudi eden izmed razlogov, da sem storitev postavil na ločenem Google računu.
 
 ### Trigger za funkcijo `OnFormSubmit`
 
