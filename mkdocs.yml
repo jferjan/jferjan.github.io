@@ -27,6 +27,10 @@ theme:
         icon: material/toggle-switch
         name: Preklopi na svetli način
 
+extra_javascript:
+  # Add meta noindex
+  - js/noindex.js
+
 markdown_extensions:
 
   # Python Markdown
