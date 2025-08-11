@@ -1,5 +1,0 @@
-# Zapisi
-
-Aktualni zapisi:
-
-[TAGS]

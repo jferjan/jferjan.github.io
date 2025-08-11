@@ -2,8 +2,25 @@ site_name: jaka.ferjan.net
 site_url: https://jaka.ferjan.net/
 
 nav:
-    - Naslovnica: index.md
-    - Zapisi: zapisi.md
+  - Informacijska Tehnologija:
+      - it/index.md
+      - Potrebuješ brezplačno spletno mesto?: it/spletno-mesto.md
+      - Ferjanove avtomatične čestitke: it/cestitke.md
+      - Homelab z Docker, Traefik, Portainer, Authentik: it/homelab.md
+      - Kako blokirati ChatGPT: it/blokada-chatgpt.md
+      - Powershelll skripta za preprečevanje neaktivnosti: it/no-sleep.md
+      - Si želiš imeti svoj CA: it/moj-ca.md
+      - Smrekca, razvejana, obrezana, zapakirana: it/smrekca.md
+      - Testiranje GitHub Actions: it/github-actions.md
+  - Kolesarjenje:
+      - kolesarjenje/index.md
+      - Bikepacking gear: kolesarjenje/bikepacking-gear.md
+  - Hribi:
+      - hribi/index.md
+      - Po bližnjici na rob smrti: hribi/rob-smrti.md
+      - Trodnevni snežni bivak na Komni: hribi/bivak-v-snegu.md
+  - Potapljanje:
+      - potapljanje/index.md
 
 theme:
   name: material
@@ -11,8 +28,9 @@ theme:
   font: false
   features:  
     - navigation.tabs # horizontalna navigacija
-    # - navigation.tabs.sticky  
     - navigation.top # back to top - neprevedeno v slo
+    - navigation.indexes
+    - toc.follow
     - search.suggest
     - search.highlight
   logo: img/JF_logo_white_on_transparent.png
@@ -65,7 +83,7 @@ markdown_extensions:
 
 plugins:
   - tags:
-      tags_file: zapisi.md
+      tags_file: zapisi/index.md
   - search:
      lang: sl
 

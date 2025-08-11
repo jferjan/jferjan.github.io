@@ -209,14 +209,14 @@ Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Ni
 - [X] VEB Company - Prvi malce bolj resen bicikel. CroMoly okvir, Shimano Alivio oprema. S tem biciklom sem pričel s potovanji. Še danes krasi steno v garaži. Vmes so mi ga enkrat skoraj ukradli, sem ga našel v bližini šole v grmovju z delno prežagano ključavnico. 
 - [X] Študentski "plenh-dš" - V to kategorijo štejem razmajane kovinske bicikle, ki sem jih za commute uporabljal v študentskih letih. Kupoval sem jih na policijskih dražbah, s servisiranjem pa se nisem ukvarjal, ker je bilo ceneje kupiti novo kolo na naslednji dražbi. Še danes se mi dva valjata doma. Pred kratkim sem ju očistil in spravil v vozno stanje.
 - [X] Douglas aka [Drek](https://photos.app.goo.gl/Mo29qE47ZNdUWNQq6) - Beden kovinski bicikel z zanič vilico, grip shifti in SIS opremo. Dolgo časa sta se na njemu nabirala rja in prah, dokler se ga nisem usmilil in ga obnovil. Po novem se imenuje Drek.
-- [X] [Trek 7000 ZX Dragonfly Green](../bikepacking_gear/#bike) - S tem lepotcem sem v preteklih letih naredil veliko lepih spominov.
+- [X] [Trek 7000 ZX Dragonfly Green](bikepacking-gear.md#bike) - S tem lepotcem sem v preteklih letih naredil veliko lepih spominov.
 - [X] [Trek Supercaliber 9.9. XX1 AXS 2022 Red Project One](https://www.trekbikes.com/international/en_IN_TL/bikes/mountain-bikes/cross-country-mountain-bikes/supercaliber/supercaliber-9-9-xx1-axs-gen-1/p/37041/) - Po 15 letih končno novo kolo, ki bo počasi nadomestilo Trek 7000. No, bicikel ni čisto nov, pred menoj ga je v sezoni 2022 tekmovalno vozil [Rok Naglič](https://www.youtube.com/watch?v=H1d8KOkUAkc).
 
 Poleg naštetih koles so v družini še tri kolesa od žene in pet od otrok. Verjetno vse skupaj malo preveč. :)
 
 ## Oprema
 
-### [Bikepacking gear](../bikepacking_gear/)
+### [Bikepacking gear](bikepacking-gear.md)
 
 Zapis o kolesarski opremi, ki jo uporabljam na potovanjih je v angleščini. Razlog za angleški zapis je v tem, da na zapisu linkam kup opreme in uporabljam affiliate povezave. Za tak način objave sem se odločil zato, da raziščem način in potencial Amazonovega partnerskega programa. **Update:** Se ne izplača, sem se pa nekaj novega naučil.
 

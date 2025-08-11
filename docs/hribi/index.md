@@ -21,15 +21,15 @@ V nadaljevanju povzemam par hribovskih dogodivščin...
 
 ## Po bližnjici na rob smrti
 
-Bližnjica na Škrlatico, slaba ideja, ki si zasluži ločen zapis - **[Po bližnjici na rob smrti](rob_smrti.md)**.
+Bližnjica na Škrlatico, slaba ideja, ki si zasluži ločen zapis - **[Po bližnjici na rob smrti](rob-smrti.md)**.
 
-[![Po bližnjici na rob smrti](https://lh3.googleusercontent.com/pw/AP1GczPZTCTCmbFfdrx1x7G-c_dLtiTYkI76wclHDrf65Lac-OEDG5pvQ_Lp_2VoytmPvQP7PTsFzcw3TdVv4DfmCURyEMIWOttCUXBxjhcCtIHu-nzwRsJPKf6qhW9NuQ2pdupp-UMEu1tWPcb6pzU5lNcJTA=w937-h171-s-no-gm?authuser=0 "Po bližnjici na rob smrti"){referrerpolicy="no-referrer"}](rob_smrti.md)
+[![Po bližnjici na rob smrti](https://lh3.googleusercontent.com/pw/AP1GczPZTCTCmbFfdrx1x7G-c_dLtiTYkI76wclHDrf65Lac-OEDG5pvQ_Lp_2VoytmPvQP7PTsFzcw3TdVv4DfmCURyEMIWOttCUXBxjhcCtIHu-nzwRsJPKf6qhW9NuQ2pdupp-UMEu1tWPcb6pzU5lNcJTA=w937-h171-s-no-gm?authuser=0 "Po bližnjici na rob smrti"){referrerpolicy="no-referrer"}](rob-smrti.md)
 
 ## Bivakiranje v snegu
 
-Nepozabna kljukica na seznamu želja  - **[Trodnevni snežni bivak na Komni](bivak_v_snegu.md)**.
+Nepozabna kljukica na seznamu želja  - **[Trodnevni snežni bivak na Komni](bivak-v-snegu.md)**.
 
-[![Bivak v snegu](https://lh3.googleusercontent.com/pw/AP1GczOUAtAr2j1mhQPGZnOEVGfvTOcyjxcSInLW3Vm4Vtzn9tl7Rfa3StIJ2glu0m_Y0nonx_zbOhG6-NxESt4z9TXITcMleVLWMsiW6zETs4ihsAwvWqThnU82s3O3af8NEShMlVvviXjjKajh80Kn7ULvrg=w913-h913-s-no-gm?authuser=0 "Bivak v snegu"){referrerpolicy="no-referrer"}](bivak_v_snegu.md)
+[![Bivak v snegu](https://lh3.googleusercontent.com/pw/AP1GczOUAtAr2j1mhQPGZnOEVGfvTOcyjxcSInLW3Vm4Vtzn9tl7Rfa3StIJ2glu0m_Y0nonx_zbOhG6-NxESt4z9TXITcMleVLWMsiW6zETs4ihsAwvWqThnU82s3O3af8NEShMlVvviXjjKajh80Kn7ULvrg=w913-h913-s-no-gm?authuser=0 "Bivak v snegu"){referrerpolicy="no-referrer"}](bivak-v-snegu.md)
 
 [:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/eAwjfiRK5bKcZvv9A)
 
