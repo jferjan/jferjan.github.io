@@ -11,5 +11,3 @@ V tem razdelku boste našli zapise o različnih temah s področja informacijske 
 * [Si želiš imeti svoj CA](moj-ca.md)
 * [Smrekca, razvejana, obrezana, zapakirana](smrekca.md)
 * [Testiranje GitHub Actions](github-actions.md)
-* [Tailscale in Headscale](tailscale-in-headscale.md)
-* [Varnost z Authentikom in Traefikom](forward-auth.md)
