@@ -24,6 +24,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: sl
   font: false
   features:  
@@ -34,7 +35,7 @@ theme:
     - search.suggest
     - search.highlight
   logo: img/JF_logo_white_on_transparent.png
-  favicon: img/favicon.ico
+  #favicon: img/favicon.ico # prestavljeno v overrides
   palette:
     - scheme: default
       toggle:
