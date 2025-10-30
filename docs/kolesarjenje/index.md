@@ -68,7 +68,9 @@ Več let kasneje, ko se je umirilo obdobje jadranja in potapljanja, so me spreje
 ### Kapadokija (Turčija)
 Druga fura z ekipo iz Španije. Tokrat sta se nam pridružita še dva člana. V enem tednu odfuramo lep krog po Kapadokiji. Za nameček se podamo še v tretjo dimenzijo.
 
-[![Kapadokija (Turčija) - Trailer](https://lh3.googleusercontent.com/pw/ABLVV85_gcSkl7BBaF5ssbdJDdW19Onxt-HOxImii9cJn3cU_0KGJlsbZscRZcxijTdoOwfFCg35x-oHMJRKBsGhF4bSCp7964dbCaoitfnhbqZza00Amf8jbVwvlrkVVgBRKCAWHaBx2lH4m1d8ppEbhGfbJw=w1280-h720-s-no-gm?authuser=0 "Kapadokija (Turčija) - Trailer"){referrerpolicy="no-referrer"}](https://youtu.be/6Dsyb4W8TIc)
+Za dokumentiranje kolesarjenja po Kapadokiji sem si vzel več časa. Če ga imaš tudi ti preveč te vabim k ogledu celotne serije.
+
+[![Kapadokija (Turčija) - Trailer](https://lh3.googleusercontent.com/pw/ABLVV85_gcSkl7BBaF5ssbdJDdW19Onxt-HOxImii9cJn3cU_0KGJlsbZscRZcxijTdoOwfFCg35x-oHMJRKBsGhF4bSCp7964dbCaoitfnhbqZza00Amf8jbVwvlrkVVgBRKCAWHaBx2lH4m1d8ppEbhGfbJw=w1280-h720-s-no-gm?authuser=0 "Kapadokija (Turčija) - Trailer"){referrerpolicy="no-referrer"}](https://www.youtube.com/playlist?list=PLXjRIQfyHczbWeyeSSiA-Erv2RAeVf1fm)
 
 [:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/E2ALAw4dJgQyHNgA9)
 
@@ -117,6 +119,13 @@ Ko se doma že malo ohladi je čas za tople kraje. Ciper ima oktobra idealne tem
 ![Ciper](https://lh3.googleusercontent.com/pw/ABLVV87L_1xGQHm3K9mikRYm2-GBymW1raOanVODf_SVoSW3X6WU57shF-Vtr0LL-qsTuUz_7APaA2a0gurGS3lPutnf6jr08VoXqjV87_8CXooyNFNuyXi_-hoEckzDtbj5yRYx0fcom1O8ChdXZf-HOsc-mA=w1470-h828-s-no-gm?authuser=0 "Ciper"){referrerpolicy="no-referrer"}]
 
 [:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/hojVDLcLbLjHrSqs8)&emsp;[:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/1340467804)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/1342138276)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/1343243995)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/1344191538)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/1345426891)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/1346364984)&emsp;[:material-bike-fast: GPX, 7. dan](https://www.komoot.com/tour/1347493947)&emsp;[:material-bike-fast: GPX, 8. dan](https://www.komoot.com/tour/1348665958)&emsp;[:material-bike-fast: GPX, 9. dan](https://www.komoot.com/tour/1349868308)
+
+### Portugalska
+Pet prijateljev, pet kolesarskih dni, pet logističnih dni, ~500km in ~5000 višincev. Prekolesarimo centralni del Portugalske, se precej namatramo z vlaki in malce predčasno prenehamo pedalirati zaradi zastrupitve.
+
+![Portugalska](https://lh3.googleusercontent.com/pw/AP1GczMsXTmvBy1678yZmpNoagTjdAOj5Qw8eB-UYq4pclfBg8DGu8hXMD7BwOPYTix4HXj5XUZv9GWaQw_46rn-PUu2ejtby6gZgI9coEu748CICXAKsiLkvGyeGJPfw0IPas8xHYn9mICWzLGI1nKYnIHl8A=w1470-h828-s-no-gm?authuser=0 "Portugalska"){referrerpolicy="no-referrer"}]
+
+[:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/uK8yr2dU5uPfBwP56)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/2616829519)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/2618579685)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/2619926590)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/2621476334)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/2623106996)&emsp;[:material-bike-fast: GPX, 7. dan 1/3](https://www.komoot.com/tour/2623907961)&emsp;[:material-bike-fast: GPX, 7. dan 2/3](https://www.komoot.com/tour/2624481818)&emsp;[:material-bike-fast: GPX, 7. dan 3/3](https://www.komoot.com/tour/2624894951)&emsp;[:material-bike-fast: GPX, 8. dan](https://www.komoot.com/tour/2625802095)
 
 ## Izzivi in dnevne dogodivščine
 Seveda niso vse ture večdnevne. Včasih paše tudi kakšna enodnevna. Vseh se seveda ne spomnim, lahko pa naštejem kakšno, ki se je bolj vtisnila v spomin.
@@ -197,7 +206,10 @@ V 2024 se mi je uspelo udeležiti treh takšnih dogodkov in vsakič podaljšati 
 - Epic Rides Paklenica/Zrmanja - 
 [:material-bike-fast: GPX](https://www.komoot.com/tour/1588094382)
 
+V 2025 sem dodal še enega epica.
 
+- Epic Rides Rab - 
+[:material-bike-fast: GPX](https://www.komoot.com/tour/2652334204)
 
 ## Commute
 Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Nič čakanja, iskanja parkinga ipd. Kolo za dnevne opravke in migracije uporabljam že od osnovne šole dalje. Ko je dež uporabim pelerino in gamaše. Pozimi jakno, kapo in rokavice. Ceste in kolesarske so prevozne celo leto, izjema je mogoče le dan ali dva ko/če zapade večja količina snega.
