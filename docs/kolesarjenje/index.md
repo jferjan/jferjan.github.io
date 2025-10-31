@@ -116,14 +116,14 @@ Po ovinkih izvem, da sosed Tilen, s katerim sva skupaj obiskovala že vrtec, tud
 ### Ciper
 Ko se doma že malo ohladi je čas za tople kraje. Ciper ima oktobra idealne temperature. 27 čez dan, 20 ponoči. Tokrat smo v ekipi štirje. Po dolgem času zopet ekipa, ki se ne boji spanja v naravi. Krog po Cipru odpeljemo kar športno, 600km, 6000 višincev. Vmes najdemo celo čas za potapljanje.
 
-![Ciper](https://lh3.googleusercontent.com/pw/ABLVV87L_1xGQHm3K9mikRYm2-GBymW1raOanVODf_SVoSW3X6WU57shF-Vtr0LL-qsTuUz_7APaA2a0gurGS3lPutnf6jr08VoXqjV87_8CXooyNFNuyXi_-hoEckzDtbj5yRYx0fcom1O8ChdXZf-HOsc-mA=w1470-h828-s-no-gm?authuser=0 "Ciper"){referrerpolicy="no-referrer"}]
+![Ciper](https://lh3.googleusercontent.com/pw/ABLVV87L_1xGQHm3K9mikRYm2-GBymW1raOanVODf_SVoSW3X6WU57shF-Vtr0LL-qsTuUz_7APaA2a0gurGS3lPutnf6jr08VoXqjV87_8CXooyNFNuyXi_-hoEckzDtbj5yRYx0fcom1O8ChdXZf-HOsc-mA=w1470-h828-s-no-gm?authuser=0 "Ciper"){referrerpolicy="no-referrer"}
 
 [:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/hojVDLcLbLjHrSqs8)&emsp;[:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/1340467804)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/1342138276)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/1343243995)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/1344191538)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/1345426891)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/1346364984)&emsp;[:material-bike-fast: GPX, 7. dan](https://www.komoot.com/tour/1347493947)&emsp;[:material-bike-fast: GPX, 8. dan](https://www.komoot.com/tour/1348665958)&emsp;[:material-bike-fast: GPX, 9. dan](https://www.komoot.com/tour/1349868308)
 
 ### Portugalska
 Pet prijateljev, pet kolesarskih dni, pet logističnih dni, ~500km in ~5000 višincev. Prekolesarimo centralni del Portugalske, se precej namatramo z vlaki in malce predčasno prenehamo pedalirati zaradi zastrupitve.
 
-![Portugalska](https://lh3.googleusercontent.com/pw/AP1GczMsXTmvBy1678yZmpNoagTjdAOj5Qw8eB-UYq4pclfBg8DGu8hXMD7BwOPYTix4HXj5XUZv9GWaQw_46rn-PUu2ejtby6gZgI9coEu748CICXAKsiLkvGyeGJPfw0IPas8xHYn9mICWzLGI1nKYnIHl8A=w1470-h828-s-no-gm?authuser=0 "Portugalska"){referrerpolicy="no-referrer"}]
+![Portugalska](https://lh3.googleusercontent.com/pw/AP1GczMsXTmvBy1678yZmpNoagTjdAOj5Qw8eB-UYq4pclfBg8DGu8hXMD7BwOPYTix4HXj5XUZv9GWaQw_46rn-PUu2ejtby6gZgI9coEu748CICXAKsiLkvGyeGJPfw0IPas8xHYn9mICWzLGI1nKYnIHl8A=w1470-h828-s-no-gm?authuser=0 "Portugalska"){referrerpolicy="no-referrer"}
 
 [:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/uK8yr2dU5uPfBwP56)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/2616829519)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/2618579685)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/2619926590)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/2621476334)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/2623106996)&emsp;[:material-bike-fast: GPX, 7. dan 1/3](https://www.komoot.com/tour/2623907961)&emsp;[:material-bike-fast: GPX, 7. dan 2/3](https://www.komoot.com/tour/2624481818)&emsp;[:material-bike-fast: GPX, 7. dan 3/3](https://www.komoot.com/tour/2624894951)&emsp;[:material-bike-fast: GPX, 8. dan](https://www.komoot.com/tour/2625802095)
 
