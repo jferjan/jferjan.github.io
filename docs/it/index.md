@@ -12,6 +12,8 @@ Veliko časa namenim raziskovanju informacijske tehnologije. Berem, poslušam, g
 * [Potrebuješ brezplačno spletno mesto?](spletno-mesto.md)
 * [Ferjanove avtomatične čestitke](cestitke.md)
 * [Homelab z Docker, Traefik, Portainer, Authentik](homelab.md)
+* [Vnaprejšnja avtentikacija z Authentikom in Traefikom](forward-auth.md)
+* [Tailscale in Headscale zasebno omrežje](tailscale-in-headscale.md)
 * [Kako blokirati ChatGPT](blokada-chatgpt.md)
 * [Powershelll skripta za preprečevanje neaktivnosti](no-sleep.md)
 * [Si želiš imeti svoj CA](moj-ca.md)

@@ -3,7 +3,7 @@ tags:
   - IT
 ---
 
-# Tailscale in Headscale: Zasebno Omrežje po tvoji meri
+# Tailscale in Headscale: Zasebno omrežje po tvoji meri
 
 >TL:DR V tem zapisu predstavim primer izvedbe VPN omrežja za potrebe upravljanja [homelab](homelab.md) okolja.
 

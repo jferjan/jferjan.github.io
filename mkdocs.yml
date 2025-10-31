@@ -7,6 +7,8 @@ nav:
       - Potrebuješ brezplačno spletno mesto?: it/spletno-mesto.md
       - Ferjanove avtomatične čestitke: it/cestitke.md
       - Homelab z Docker, Traefik, Portainer, Authentik: it/homelab.md
+      - Vnaprejšnja avtentikacija z Authentikom in Traefikom: it/forward-auth.md
+      - Tailscale in Headscale zasebno omrežje: it/tailscale-in-headscale.md
       - Kako blokirati ChatGPT: it/blokada-chatgpt.md
       - Powershelll skripta za preprečevanje neaktivnosti: it/no-sleep.md
       - Si želiš imeti svoj CA: it/moj-ca.md

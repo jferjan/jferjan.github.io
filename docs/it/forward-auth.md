@@ -3,7 +3,7 @@ tags:
   - IT
 ---
 
-# Varnost z Authentikom in Traefikom: Enostavna zaščita vaših spletnih storitev
+# Vnaprejšnja avtentikacija z Authentikom in Traefikom: Enostavna zaščita spletnih storitev
 
 Ste se kdaj vprašali, kako bi lahko učinkovito zaščitili svoje spletne storitve, kot so Portainer, Gitea ali kakšna druga aplikacija v vašem lokalnem omrežju, ne da bi se morali prijavljati v vsako posebej? S pomočjo **Authentika** in **Traefika** lahko vzpostavite enotno prijavo (Single Sign-On oz. SSO) in centralizirano upravljate dostop do vseh svojih aplikacij. Tudi do takšnih, ki nimajo lastnega mehanizma za avtentikacijo.
 
