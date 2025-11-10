@@ -1,0 +1,1434 @@
+
+<!doctype html>
+<html lang="sl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://jaka.ferjan.net/it/tailscale-in-headscale/">
+      
+      
+        <link rel="prev" href="../forward-auth/">
+      
+      
+        <link rel="next" href="../blokada-chatgpt/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Tailscale in Headscale zasebno omrežje - jaka.ferjan.net</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Jaka Ferjan" />
+  <link rel="manifest" href="site.webmanifest" />
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tailscale-in-headscale-zasebno-omrezje-po-tvoji-meri" class="md-skip">
+          Skoči na vsebino
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Noga">
+    <a href="../.." title="jaka.ferjan.net" class="md-header__button md-logo" aria-label="jaka.ferjan.net" data-md-component="logo">
+      
+  <img src="../../img/JF_logo_white_on_transparent.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            jaka.ferjan.net
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tailscale in Headscale zasebno omrežje
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Preklopi na temni način"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Preklopi na temni način" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Preklopi na svetli način"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Preklopi na svetli način" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Išči" placeholder="Išči" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Iskanje">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Počisti" aria-label="Počisti" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializacija iskanja
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Zavihki" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Informacijska Tehnologija
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../kolesarjenje/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Kolesarjenje
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../hribi/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hribi
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../potapljanje/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Potapljanje
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigacija" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="jaka.ferjan.net" class="md-nav__button md-logo" aria-label="jaka.ferjan.net" data-md-component="logo">
+      
+  <img src="../../img/JF_logo_white_on_transparent.png" alt="logo">
+
+    </a>
+    jaka.ferjan.net
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Informacijska Tehnologija
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Informacijska Tehnologija
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spletno-mesto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Potrebuješ brezplačno spletno mesto?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cestitke/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferjanove avtomatične čestitke
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../homelab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Homelab z Docker, Traefik, Portainer, Authentik
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forward-auth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vnaprejšnja avtentikacija z Authentikom in Traefikom
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Tailscale in Headscale zasebno omrežje
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tailscale in Headscale zasebno omrežje
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Kazalo">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Kazalo
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tailscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tailscale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#headscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Headscale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zakaj-bi-jih-uporabljal-skupaj" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zakaj bi jih uporabljal skupaj?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arhitektura-headscaletailscale-homelab-omrezja" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arhitektura Headscale/Tailscale homelab omrežja
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arhitektura Headscale/Tailscale homelab omrežja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kako-deluje-varen-dostop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kako deluje varen dostop?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#namestitev-headscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namestitev Headscale
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Namestitev Headscale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tailscale-klient" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tailscale klient
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blokada-chatgpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kako blokirati ChatGPT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../no-sleep/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Powershelll skripta za preprečevanje neaktivnosti
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moj-ca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Si želiš imeti svoj CA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smrekca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Smrekca, razvejana, obrezana, zapakirana
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github-actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testiranje GitHub Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../kolesarjenje/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Kolesarjenje
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Kolesarjenje
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kolesarjenje/bikepacking-gear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bikepacking gear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../hribi/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Hribi
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Hribi
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hribi/rob-smrti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Po bližnjici na rob smrti
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hribi/bivak-v-snegu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trodnevni snežni bivak na Komni
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../potapljanje/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Potapljanje
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Potapljanje
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Kazalo">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Kazalo
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tailscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tailscale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#headscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Headscale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zakaj-bi-jih-uporabljal-skupaj" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zakaj bi jih uporabljal skupaj?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arhitektura-headscaletailscale-homelab-omrezja" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arhitektura Headscale/Tailscale homelab omrežja
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arhitektura Headscale/Tailscale homelab omrežja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kako-deluje-varen-dostop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kako deluje varen dostop?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#namestitev-headscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namestitev Headscale
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Namestitev Headscale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tailscale-klient" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tailscale klient
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../zapisi/#tag:it" class="md-tag">IT</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="tailscale-in-headscale-zasebno-omrezje-po-tvoji-meri">Tailscale in Headscale: Zasebno omrežje po tvoji meri<a class="headerlink" href="#tailscale-in-headscale-zasebno-omrezje-po-tvoji-meri" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>TL:DR V tem zapisu predstavim primer izvedbe VPN omrežja za potrebe upravljanja <a href="../homelab/">homelab</a> okolja.</p>
+</blockquote>
+<h2 id="tailscale">Tailscale<a class="headerlink" href="#tailscale" title="Permanent link">&para;</a></h2>
+<p><strong>Tailscale</strong> ustvari varno in enostavno <strong>VPN mesh omrežje</strong> med vsemi tvojimi napravami, kjerkoli že so. Deluje kot "zero-config" VPN, kar pomeni, da je namestitev in uporaba izjemno preprosta. V osnovi uporablja protokol <strong>WireGuard</strong> in ti omogoča, da do svojih naprav dostopaš, kot da so vse na istem lokalnem omrežju, ne da bi te skrbelo nastavljanje požarnih zidov ali preusmerjanje vrat (port forwarding). Za osebno uporabo je Tailscale brezplačen za določeno število naprav.</p>
+<h2 id="headscale">Headscale<a class="headerlink" href="#headscale" title="Permanent link">&para;</a></h2>
+<p>Medtem ko je Tailscale odlična rešitev, se njegova brezplačna različica in komercialni paketi upravljajo prek njihovih strežnikov, kar morda ni idealno za vse. Tu pride v igro <strong>Headscale</strong>.</p>
+<p><strong>Headscale</strong> je <strong>odprtokodna, samostojno gostujoča (self-hosted) alternativa</strong> centralnim strežnikom Tailscale. Namesto da bi se tvoje naprave povezovale na Tailscale kontrolne strežnike, jih lahko povežeš na svoj lasten Headscale strežnik. To ti omogoča:</p>
+<ul>
+<li><strong>Popoln nadzor:</strong> Prevzameš popoln nadzor nad avtentikacijo in avtorizacijo svojih naprav in uporabnikov.</li>
+<li><strong>Zasebnost podatkov:</strong> Vsi metapodatki o tvojem omrežju ostanejo na tvojem strežniku, namesto na strežnikih tretje osebe.</li>
+<li><strong>Prilagodljivost:</strong> Za napredne uporabnike Headscale ponuja več možnosti konfiguracije in prilagoditve, ki niso na voljo v standardni Tailscale ponudbi.</li>
+<li><strong>Neomejeno število naprav/uporabnikov:</strong> Ker gostuješ sam, te ne omejujejo omejitve Tailscale brezplačnega plana glede števila naprav in uporabnikov.</li>
+</ul>
+<h2 id="zakaj-bi-jih-uporabljal-skupaj">Zakaj bi jih uporabljal skupaj?<a class="headerlink" href="#zakaj-bi-jih-uporabljal-skupaj" title="Permanent link">&para;</a></h2>
+<p>Kombinacija Tailscale (kot odjemalca na tvojih napravah) in Headscale (kot tvojega lastnega kontrolnega strežnika) ti omogoča, da izkoristiš preprostost in robustnost Tailscale tehnologije, hkrati pa ohranjaš <strong>popolno avtonomijo in nadzor nad svojim omrežjem</strong>. To je idealno za uporabnike, ki cenijo zasebnost, želijo imeti popoln nadzor nad infrastrukturo ali potrebujejo večje število naprav, kot jih ponuja brezplačni Tailscale plan.</p>
+<p>Če torej želiš enostavno in varno povezljivost med svojimi napravami, a si hkrati želiš popolnega nadzora in neodvisnosti od komercialnih ponudnikov, je kombinacija <strong>Tailscale odjemalcev in lastnega Headscale strežnika</strong> odlična rešitev.</p>
+<h2 id="arhitektura-headscaletailscale-homelab-omrezja">Arhitektura Headscale/Tailscale homelab omrežja<a class="headerlink" href="#arhitektura-headscaletailscale-homelab-omrezja" title="Permanent link">&para;</a></h2>
+<p>V nadaljevanju sledi opis konkretne implementacije v <a href="../homelab/">homelab</a> okolju.</p>
+<ul>
+<li><strong>Headscale strežnik (Docker):</strong> Nameščen kot Docker vsebnik na našem homelab strežniku, deluje kot centralni kontrolni strežnik za naše Headscale/Tailscale omrežje.</li>
+<li><strong>Homelab host (Linux CLI):</strong> Naš homelab VM strežnik (ki je hkrati tudi Docker host), opremljen s Tailscale CLI, se poveže na naš Headscale strežnik, ki je nameščen v Docker vsebniku.</li>
+<li><strong>Oddaljeni Windows klient:</strong> Naš Windows računalnik, z nameščenim Tailscale klientom, se oddaljeno poveže na naš Headscale strežnik.</li>
+<li><strong>Usmerjevalnik:</strong> Na našem domačem usmerjevalniku je odprt <strong>le port 443 (HTTPS)</strong>. To je ključnega pomena za varnost, saj zmanjšuje število izpostavljenih vrat na minimum. Tailscale (in s tem Headscale) je zasnovan tako, da deluje tudi za požarnim zidom z uporabo tehnik, kot je <strong>hole punching</strong> omogoča neposredne "peer-to-peer" povezave med odjemalci, tudi če so za NAT-om. Port 443 bo uporabljen za začetno avtentikacijo in signalizacijo.</li>
+</ul>
+<p><strong>Namen:</strong> Omogočiti varen, šifriran in direkten dostop do upravljanja homelab okolja z oddaljenega Windows klienta, kot da bi bil fizično prisoten v našem lokalnem omrežju, z minimalno izpostavljenostjo omrežja.</p>
+<h3 id="kako-deluje-varen-dostop">Kako deluje varen dostop?<a class="headerlink" href="#kako-deluje-varen-dostop" title="Permanent link">&para;</a></h3>
+<p>Ko se oba Tailscale odjemalca (naš homelab VM strežnik in Windows klient) uspešno povežeta na Headscale strežnik, bosta postala del istega <strong>virtualnega zasebnega omrežja (VPN)</strong>. To pomeni, da bomo lahko z oddaljenega Windows računalnika:</p>
+<ul>
+<li><strong>Dostopali do drugih naprav in storitev v našem homelab okolju</strong>, kot da bi bili fizično prisotni doma.</li>
+<li>Uporabljali <strong>SSH za upravljanje homelab okolja</strong>, dostopali do <strong>web vmesnikov</strong>, delili datoteke ali dostopali do katere koli druge storitve, ki teče v našem lokalnem omrežju.</li>
+</ul>
+<p>Vsa komunikacija med odjemalci bo <strong>šifrirana od konca do konca</strong> z uporabo WireGuard protokola, kar zagotavlja visoko raven varnosti. Z minimalnim odprtim portom na usmerjevalniku bo bistveno zmanjšano tveganje, hkrati pa bomo ohranili popoln in varen dostop do homelab okolja.</p>
+<h2 id="namestitev-headscale">Namestitev Headscale<a class="headerlink" href="#namestitev-headscale" title="Permanent link">&para;</a></h2>
+<p>Pripravimo datotečno strukturo.</p>
+<div class="highlight"><pre><span></span><code>./headscale
+└──<span class="w"> </span>config
+<span class="w">  </span>└──<span class="w"> </span>config.yml
+└──<span class="w"> </span>data<span class="w">  </span>
+└──<span class="w"> </span>docker-compose.yml
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>mkdir /vagrant/headscale
+
+mkdir /vagrant/headscale/config
+
+mkdir /vagrant/headscale/data
+</code></pre></div>
+<p>Pripravimo datoteko <code>docker-compose.yml</code>.</p>
+<div class="highlight"><pre><span></span><code>wget https://goauthentik.io/docker-compose.yml
+</code></pre></div>
+<blockquote>
+<p>Izhajamo lahko iz uradne datoteke <code>docker-compose.yml</code>, ki jo prilagodimo za uporabo s Traefik.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><span class="nt">services</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">headscale</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">headscale</span>
+<span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">headscale/headscale:0.25.1</span>
+<span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">serve</span>
+<span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unless-stopped</span>
+<span class="w">    </span><span class="nt">volumes</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./config:/etc/headscale/</span><span class="w">  </span><span class="c1"># Configuration files</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./data:/var/lib/headscale</span><span class="w"> </span><span class="c1"># Data persistence</span>
+<span class="w">    </span><span class="nt">labels</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;traefik.enable=true&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;traefik.http.routers.headscale.rule=Host(`headscale.lab.ferjan.net`)&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;traefik.http.routers.headscale.entrypoints=https&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;traefik.http.routers.headscale.tls=true&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;traefik.http.services.headscale.loadbalancer.server.port=8080&quot;</span>
+<span class="w">    </span><span class="nt">networks</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">proxy</span>
+
+<span class="nt">networks</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">proxy</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">external</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</code></pre></div>
+<p>Pripravimo datoteko <code>config.yml</code>.</p>
+<blockquote>
+<p>Izhajamo lahko iz uradne <code>config-examle.yml</code> datoteke.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>wget https://raw.githubusercontent.com/juanfont/headscale/refs/heads/main/config-example.yaml -O /vagrant/headscale/config/config.yml
+</code></pre></div>
+<p>V config datoteki popravimo <code>server_url</code>, <code>base_domain</code>, <code>listen_addr</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">server_url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://headscale.lab.ferjan.net</span>
+<span class="c1">##</span>
+<span class="nt">base_domain</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">headscale.lab.ferjan.net</span>
+<span class="c1">##</span>
+<span class="nt">listen_addr</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.0.0.0:8080</span>
+</code></pre></div>
+<p>Poženemo kontejner.</p>
+<div class="highlight"><pre><span></span><code>docker compose up -d
+</code></pre></div>
+<p>Ob prvem zagonu se bo v data direktoriju ustvarila <strong>sqlite baza</strong> in datoteka <code>noise_private.key</code>.</p>
+<p>Preverimo delovanje.</p>
+<div class="highlight"><pre><span></span><code>https://headscale.lab.ferjan.net/windows
+</code></pre></div>
+<p>Ustvarimo uporabnika <code>myuser</code>.</p>
+<div class="highlight"><pre><span></span><code>docker exec headscale headscale users create myuser
+</code></pre></div>
+<p>Ustvarimo pre-auth ključ.</p>
+<div class="highlight"><pre><span></span><code>docker exec headscale headscale preauthkeys create -e 24h -u myuser
+</code></pre></div>
+<blockquote>
+<p>Headscale uporablja distroless slike in ne vsebuje sh ali bash lupine.
+https://github.com/juanfont/headscale/issues/1800</p>
+</blockquote>
+<p>Preverimo node.</p>
+<div class="highlight"><pre><span></span><code>docker exec headscale headscale nodes list
+</code></pre></div>
+<p>Preverimo route.</p>
+<div class="highlight"><pre><span></span><code>docker exec headscale headscale routes list
+</code></pre></div>
+<h3 id="tailscale-klient">Tailscale klient<a class="headerlink" href="#tailscale-klient" title="Permanent link">&para;</a></h3>
+<p>Za povezavo na headscale strežnik je potrebno namestiti <a href="https://tailscale.com/download/">Tailscale klienta</a>.</p>
+<blockquote>
+<p>V našem je bil izbran Windows klient, ker poteka upravljanje iz prenosnika z nameščenim Windows okoljem. </p>
+</blockquote>
+<p>Iz Windows se je potrebno ob prvi povezavi povezati preko CLI kot administrator.</p>
+<div class="highlight"><pre><span></span><code>C:\Windows\System32&gt;tailscale up --login-server https://headscale.lab.ferjan.net --authkey &lt;your_auth_key&gt;
+</code></pre></div>
+<blockquote>
+<p>Ko končamo z delom se ne odjavimo ampak le ugasnemo klienta. Ob naslednjem zagonu klienta bomo tako že prijavljeni.
+V primeru, da smo se odjavili moramo ponovno izdati pre-auth ključ in se ponovno prijaviti preko CLI.</p>
+</blockquote>
+<p>Tailscale Linux klienta namestimo tudi v naš homelab VM strežnik (Ubuntu).</p>
+<div class="highlight"><pre><span></span><code>curl -fsSL https://tailscale.com/install.sh | sudo sh
+</code></pre></div>
+<p>Na homelab VM strežniku se s klientom povežemo na Headscale strežnik, ki teče v Docker vsebniku.</p>
+<div class="highlight"><pre><span></span><code>sudo tailscale up --login-server=https://headscale.lab.ferjan.net --authkey &lt;your_auth_key&gt;
+</code></pre></div>
+<p>Z nodes list preverimo povezane Tailscale kliente.</p>
+<div class="highlight"><pre><span></span><code>docker exec headscale headscale nodes list
+</code></pre></div>
+<p>Preverimo <a href="https://tailscale.com/kb/1081/magicdns">Magic DNS</a>.</p>
+<div class="highlight"><pre><span></span><code>nslookup 100.64.0.1
+nslookup lab.headscale.lab.ferjan.net
+</code></pre></div>
+<p>Dodajanje <a href="https://tailscale.com/kb/1019/subnets">subnet routinga</a>, da omogočimo dostop do celotnega domačega omrežja.</p>
+<div class="highlight"><pre><span></span><code>sudo tailscale set --advertise-routes=192.168.1.0/24
+docker exec headscale headscale routes list
+docker exec headscale headscale routes enable -r 1
+</code></pre></div>
+<p>Tako, namestitev je končana. V kolikor smo se z našim Windows in Linux klientom uspešno povezali v Tailscale omrežje lahko dostopamo do vsega kar je dosegljivo v našem zasebnem omrežju.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Nazaj na vrh
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Jaka Ferjan
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/ferjan/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@JakaFerjan" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.tiktok.com/@fotrjaka" target="_blank" rel="noopener" title="www.tiktok.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2v178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16v89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8V0h88c-.1 7.4.6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1V210z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/jferjan" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://hub.docker.com/u/jferjan" target="_blank" rel="noopener" title="hub.docker.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1zm0-204.3h-66.1v60.7h66.1zm78.2 144.8H362v59.4h66.1zm-156.3-72.1h-66.1v60.1h66.1zm78.1 0h-66.1v60.1h66.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1zm78.1 0h-66.1v59.4h66.1zm-78.1-72.1h-66.1v60.1h66.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.komoot.com/user/812042217858" target="_blank" rel="noopener" title="www.komoot.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 1.2c-1 0-1.8.8-1.8 1.8S15 4.8 16 4.8 17.8 4 17.8 3 17 1.2 16 1.2m-3.6 2.9c-.47 0-.9.19-1.2.5L7.5 8.29C7.19 8.6 7 9 7 9.5c0 .63.33 1.16.85 1.47L11.2 13v5H13v-6.5l-2.25-1.65 2.32-2.35L14.8 10H19V8.2h-3.2l-1.94-3.27c-.29-.5-.86-.83-1.46-.83M10 3H3c-.55 0-1-.45-1-1s.45-1 1-1h9.79c-.21.34-.38.71-.47 1.11-.86.02-1.67.34-2.32.89m-5 9c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5m0 8.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5M19 12c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5m0 8.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5M5.32 11H1c-.552 0-1-.45-1-1s.448-1 1-1h4.05c-.02.16-.05.33-.05.5 0 .53.12 1.04.32 1.5M6 7H2c-.55 0-1-.45-1-1s.45-1 1-1h5.97L6.09 6.87C6.05 6.91 6 6.96 6 7"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Kopirano v odlo\u017ei\u0161\u010de", "clipboard.copy": "Kopiraj v odlo\u017ei\u0161\u010de", "search.result.more.one": "\u0160e 1 na tej strani", "search.result.more.other": "\u0160e # na tej strani", "search.result.none": "Ni zadetkov", "search.result.one": "1 zadetek", "search.result.other": "# zadetkov", "search.result.placeholder": "Vpi\u0161i iskalni niz", "search.result.term.missing": "Manjka", "select.version": "Izberi razli\u010dico"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../js/noindex.js"></script>
+      
+    
+  </body>
+</html>
