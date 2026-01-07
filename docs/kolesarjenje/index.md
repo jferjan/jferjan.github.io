@@ -189,6 +189,8 @@ Savskih 50 je prireditev, ki združuje vse kolesarje in raste iz leta v leto. Ne
 
 - [:material-bike-fast: GPX 2024](https://www.komoot.com/tour/1988776180)&emsp;[:material-newspaper: Reportaža 2024](https://www.mtb.si/novice/savskih-50-vii-se-ena-kicasta-izvedba-z-blatnim-dodatkom/)    
 
+- [:material-bike-fast: GPX 2025](https://www.komoot.com/tour/2721541913)&emsp;[:material-newspaper: Reportaža 2025](https://www.mtb.si/reportaze/savskih-50-tri-ure-kasneje/)   
+
 ### Epic Rides
 
 ![Epic Rides](https://lh3.googleusercontent.com/pw/AP1GczNJPe_sqL4KHa87NNLkVh2sTT7wR1UmJhHGvONQv0pgFjo33imYp1H7dWT3S3ap92DyNtz_kZ3qMb_MjKH_aF9AEo1cK4SrcQvPPwwDsqSDuMXrIIODwbtmvXJrRfHFUTetHXbBHxH3qxbO00P1NMWiPA=w1244-h522-s-no-gm?authuser=0 "Epic Rides"){referrerpolicy="no-referrer"}
