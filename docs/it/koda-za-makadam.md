@@ -27,7 +27,8 @@ Cilj je bil jasen: najti makadamske poti, ki so:
 
 Uporabil sem tole specifično kodo, ki mi je filtrirala šum (kratke dovoze in pešpoti) in izrisala samo "zlate" kandidate:
 
-``` json
+``` cpp
+// Določi format izpisa (JSON) in časovno omejitev (30s), da strežnik ne prekine iskanja pri večjih območjih.
 [out:json][timeout:30];
 (
   // Išče servisne poti, ki so makadamske in daljše od 200m
@@ -39,8 +40,16 @@ Uporabil sem tole specifično kodo, ki mi je filtrirala šum (kratke dovoze in p
   // Išče zapuščene ceste
   way["highway"="abandoned"](if:length() > 200)({{bbox}});
 );
-// Izriše samo čiste linije brez pikic (geom)
+// Izpiše podatke ('body') skupaj z geometrijo ('geom'), kar omogoči izris linij.
 out body geom;
+
+{{style:
+/* To prepreči vmesniku, da bi točke (nodes) prikazal kot ikone ali krožce */
+node {
+  opacity: 0;
+  fill-opacity: 0;
+}
+}}
 ```
 
 ![Overpass Turbo](https://lh3.googleusercontent.com/pw/AP1GczN6gmfGN5BKMu5eIgwMg-bhixUouhTulZut_yTuv1vCYgmclVhnt845U0WX-DqHgqxyyp9JogBtjd05pAOVBnt1NZt7aZhH885_eqDXqSiacq6y2zJMksm7JLuKArYfHP3lOzc1WEvc_WSRUdnJGQP_Ig=w1038-h813-s-no-gm?authuser=0 "Overpass Turbo"){referrerpolicy="no-referrer"}
