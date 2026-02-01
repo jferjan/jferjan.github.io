@@ -9,6 +9,7 @@ Veliko časa namenim raziskovanju informacijske tehnologije. Berem, poslušam, g
 
 ## Zapisi na temo IT
 
+* [Koda za makadam](koda-za-makadam.md)
 * [Potrebuješ brezplačno spletno mesto?](spletno-mesto.md)
 * [Ferjanove avtomatične čestitke](cestitke.md)
 * [Homelab z Docker, Traefik, Portainer, Authentik](homelab.md)

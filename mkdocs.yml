@@ -4,6 +4,7 @@ site_url: https://jaka.ferjan.net/
 nav:
   - Informacijska Tehnologija:
       - it/index.md
+      - Koda za makadam: it/koda-za-makadam.md
       - Potrebuješ brezplačno spletno mesto?: it/spletno-mesto.md
       - Ferjanove avtomatične čestitke: it/cestitke.md
       - Homelab z Docker, Traefik, Portainer, Authentik: it/homelab.md
