@@ -9,4 +9,5 @@ V tem zapisu navajam povezave do uporabnih spletnih strani.
 * [Kahoot](https://kahoot.com/) - Interaktivni kvizi
 * [Doodle](https://doodle.com/) - Uskladitev terminov
 * [Peerlist launchpad](https://peerlist.io/launchpad) - Promocija projektov
-
+* [Audjust](https://www.audjust.com/) - Prilagoditev dolžine audio posnetka
+* [Trim Audio](https://cleanvoice.ai/audio-trimmer/) - Odreži audio posnetek
