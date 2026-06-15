@@ -46,7 +46,7 @@ Tokrat se v Grčijo s kolesi podam z Bibi. V planu je kolesarjenje po Krfu, kar 
 Prigoda, ki bo najbolj ostala v spominu je spanje na plaži pod šotorskim krilom napetim med plažo in klifom. Sredi noči in dežja sva se morala v dežju evakuirati, ker naju je napadla plima.
 
 #### S kolesi na absolventski izlet na Kreto
-Verjetno najbol nekolelesarski kolesarski izlet. Kolo je služilo bolj kot nadomestek oz dopolnilo javnega prevoza. Rešitev "zadnje milje". Do sedaj smo imeli prevoze po Grčiji naštudirane že do potankosti in odločitev, da gremo eno leto pred absolventom na predabsolventski izlet v lastni organizaciji in s kolesi je bila skoraj samoumevna. 
+Verjetno najbolj nekolesarski kolesarski izlet. Kolo je služilo bolj kot nadomestek oz dopolnilo javnega prevoza. Rešitev "zadnje milje". Do sedaj smo imeli prevoze po Grčiji naštudirane že do potankosti in odločitev, da gremo eno leto pred absolventom na predabsolventski izlet v lastni organizaciji in s kolesi je bila skoraj samoumevna. 
 
 ### Do Dubrovnika
 Duo izlet, jaz in Mare. 10 dni do tja in nazaj. Pot do Dubrovnika naju vodi čez otoke, družbo pa nama dela zvočnik domače izdelave montiran na moj prednji prtljažnik. Kondicijsko kar zahtevna pot, saj se izkaže, da so vse ceste na Jadranu speljane po sredini otokov. V bistvu je vsak otok hrib na katerega se vsaj enkrat vzpneš. 
@@ -127,14 +127,23 @@ Pet prijateljev, pet kolesarskih dni, pet logističnih dni, ~500km in ~5000 viš
 
 [:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/uK8yr2dU5uPfBwP56)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/2616829519)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/2618579685)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/2619926590)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/2621476334)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/2623106996)&emsp;[:material-bike-fast: GPX, 7. dan 1/3](https://www.komoot.com/tour/2623907961)&emsp;[:material-bike-fast: GPX, 7. dan 2/3](https://www.komoot.com/tour/2624481818)&emsp;[:material-bike-fast: GPX, 7. dan 3/3](https://www.komoot.com/tour/2624894951)&emsp;[:material-bike-fast: GPX, 8. dan](https://www.komoot.com/tour/2625802095)
 
+### Tuscany Trail
+
+**[Tuscany Trail](https://www.tuscanytrail.it/)** je največji bikepacking dogodek na svetu. Maja 2026, ko sva ga odpeljala z Aljažem, je privabil kar 6.150 udeležencev. V praksi to pomeni, da je v vsakem grmu vsaj en kolesar. V dobrih petih kolesarskih dneh sva v "self-supported" slogu s šotorom na kolesu prevozila 530 kilometrov in premagala 7.000 metrov višinske razlike. Trasa naju je vodila skozi čudovito toskansko pokrajino, med ikoničnimi cipresami, po prašnih makadamih strade bianche ter skozi slikovita srednjeveška mesta. Popolna kombinacija športnega izziva in kolesarske svobode. 
+
+![Tuscany Trail](https://lh3.googleusercontent.com/pw/AP1GczOVzHB3zogBXqWO6NlLKeLnUkHERM_ZL1BpB5b3v28PICI1g6HcBqVPBWVsw_3ZplXO_tjcHUEMieeLHqfTyqif3UyNCZQhqnDVY3ly4OHsp7MHrH-7yrIW8CHn930tE-0M0HsrMIyKsh7FNGytyv9hPg=w1470-h828-s-no-gm?authuser=0 "Tuscany Trail"){referrerpolicy="no-referrer"}
+
+[:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/FtcpPTBf7BogTseKA)&emsp;[:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/2971135892)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/2973414183)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/2977261170)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/2981743825)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/2985934234)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/2987352420)
+
+
 ## Izzivi in dnevne dogodivščine
 Seveda niso vse ture večdnevne. Včasih paše tudi kakšna enodnevna. Vseh se seveda ne spomnim, lahko pa naštejem kakšno, ki se je bolj vtisnila v spomin.
 
 
 ### Korona tura
-100 km pretežno makedamskih poti in cca 2000 višincev. Lep izzv za začetek sezone.
+100 km pretežno makedamskih poti in cca 2000 višincev. Lep izziv za začetek sezone.
 
-[![Korona tura](https://lh3.googleusercontent.com/pw/ABLVV86ibPyZj6mWygrKc6l7ovaKqsMD9T3Wd9w9fIsQthiYLfeITDEM093precLIQ4H083Zs-lCk_6nEok1lzd4sUwYEL3OK-uKRTGoBcfRYY185Fg3GI-w7JZu3aOg_-LTUghhS_77hGa6_xsR1err783DIA=w1280-h720-s-no-gm?authuser=0 "Korona tura"){referrerpolicy="no-referrer"}](https://youtu.be/ZAi6itTMaUI)
+[![Korona tura](https://lh3.googleusercontent.com/pw/AP1GczMIWBjyxZg6J7NV-FKHfW9_FnlQpUeC4fRiCLTW0_1LrfF3ZKi9AmcrD77m3V3PfkPBimb26WE8XRSeMxi7x6We2GNK3pQgBnaH5Jnixass1G0h74leXXfL2wJenyJTUSiY7aUPnpi_Eg-JP3ARjMJ36g=w1200-h675-s-no-gm?authuser=0 "Korona tura"){referrerpolicy="no-referrer"}](https://youtu.be/0CQX8LyJt6s)
 
 [:material-bike-fast: GPX](https://www.komoot.com/tour/778810038)
 
@@ -213,12 +222,26 @@ V 2025 sem dodal še enega epica.
 - Epic Rides Rab - 
 [:material-bike-fast: GPX](https://www.komoot.com/tour/2652334204)
 
+## GravGrav Collective
+
+**[GravGrav Collective](https://gravgrav.cc/)** je neprofitno in inkluzivno društvo, ki kolesarstvo postavlja v vlogo povezovalnega in estetskega življenjskega sloga, s poudarkom na makadamskih in avanturističnih kolesarskih izkušnjah. Kolektivu, ki aktivno sooblikuje sodobno kolesarsko sceno skozi organizacijo skupnostnih dogodkov, kot sta ikonični avanturi **Loose at the Woods** in **Loose at the Coast**, sem se leta 2026 pridružil tudi sam. Poslanstvo GravGrav ostaja združevanje ljudi skozi raziskovanje odmaknjenih poti, odprtost za vse kolesarje in širjenje pristne kolesarske subkulture v Sloveniji ter širše.
+
+### Loose at the Coast
+
+Kot del GravGrav Collective zgodbe sem se udeležil nepozabne kolesarske avanture Loose at the Coast. 
+
+[![Loose at the Coast 2026 | Bikepacking avantura po Krasu (neuradni video)](https://lh3.googleusercontent.com/pw/AP1GczM6pSvqqn70FcSGbrzpvFSCTg5sy82BN6i901R-BnFeLdoH6Zsn2hgqnFYgO7ooTUJypSqWx0n_iNH94tqnpHYfX3cwM9yqf6AsWiA8EmW7Dev8-_ibWE4T6qp2ng8tgqrPUpfJzswImaDMf0JsgRajgw=w1470-h828-s-no-gm?authuser=0 "Loose at the Coast 2026 | Bikepacking avantura po Krasu (neuradni video)"){referrerpolicy="no-referrer"}](https://youtu.be/ZSOeV71xSf0)
+
+- Loose at the Coast - Shakeout ride - [:material-bike-fast: GPX](https://www.komoot.com/tour/2877525787)
+- Loose at the Coast 2026 - Day 1 - [:material-bike-fast: GPX](https://www.komoot.com/tour/2879711504)
+- Loose at the Coast 2026 - Day 2 - [:material-bike-fast: GPX](https://www.komoot.com/tour/2882082817)
+
 ## Commute
 Po Ljubljani se najlažje giblješ s kolesom. Pika. V 15 minutah si kjerkoli. Nič čakanja, iskanja parkinga ipd. Kolo za dnevne opravke in migracije uporabljam že od osnovne šole dalje. Ko je dež uporabim pelerino in gamaše. Pozimi jakno, kapo in rokavice. Ceste in kolesarske so prevozne celo leto, izjema je mogoče le dan ali dva ko/če zapade večja količina snega.
 
 ## Vsi moji bicikli
 - [X] Pony - prvo kolo, še vedno pri hiši
-- [ ] BMX - ko smo gledali film BMX banditi je bila izbira samo še BMX. Moj je bil moder, na belanci je imel elektronsko hupo z različnimi zvonenji. Top šit!... dokler mi ga niso ukradili medtem, ko sem šel na judo.
+- [ ] BMX - ko smo gledali film BMX banditi je bila izbira samo še BMX. Moj je bil moder, na belanci je imel elektronsko hupo z različnimi zvonenji. Top šit!... dokler mi ga niso ukradli medtem, ko sem šel na judo.
 - [ ] Senior - Modri Rog lepotec s friction shifterji. Tudi tega so mi žal ukradli.
 - [X] VEB Company - Prvi malce bolj resen bicikel. CroMoly okvir, Shimano Alivio oprema. S tem biciklom sem pričel s potovanji. Še danes krasi steno v garaži. Vmes so mi ga enkrat skoraj ukradli, sem ga našel v bližini šole v grmovju z delno prežagano ključavnico. 
 - [X] Študentski "plenh-dš" - V to kategorijo štejem razmajane kovinske bicikle, ki sem jih za commute uporabljal v študentskih letih. Kupoval sem jih na policijskih dražbah, s servisiranjem pa se nisem ukvarjal, ker je bilo ceneje kupiti novo kolo na naslednji dražbi. Še danes se mi dva valjata doma. Pred kratkim sem ju očistil in spravil v vozno stanje.
@@ -235,4 +258,4 @@ Poleg naštetih koles so v družini še tri kolesa od žene in pet od otrok. Ver
 Zapis o kolesarski opremi, ki jo uporabljam na potovanjih je v angleščini. Razlog za angleški zapis je v tem, da na zapisu linkam kup opreme in uporabljam affiliate povezave. Za tak način objave sem se odločil zato, da raziščem način in potencial Amazonovega partnerskega programa. **Update:** Se ne izplača, sem se pa nekaj novega naučil.
 
 ### Nosilec za 4
-Thule velospace je nova družinska pridobitev. Zadeva se obnese odlično. Nič več matranja z dvigovanjem koles na streho. Bicikle za vso družino sedaj brez težav transportiramo naokoli. Na ta način so se nam zelo razširile možnosti za družinske kolesarske izlete.
+Thule velospace je vsekakor družinska pridobitev. Zadeva se obnese odlično. Nič več matranja z dvigovanjem koles na streho. Bicikle za vso družino sedaj brez težav transportiramo naokoli. Na ta način so se nam zelo razširile možnosti za družinske kolesarske izlete.
