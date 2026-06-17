@@ -17,7 +17,11 @@ nav:
       - Testiranje GitHub Actions: it/github-actions.md
   - Kolesarjenje:
       - kolesarjenje/index.md
+      - Kolesarska potovanja: kolesarjenje/kolesarska-potovanja.md
+      - Kolesarske dogodivščine: kolesarjenje/kolesarske-dogodivscine.md
+      - Bicikli in oprema: kolesarjenje/bicikli-in-oprema.md
       - Bikepacking gear: kolesarjenje/bikepacking-gear.md
+      - Commute oprema: kolesarjenje/commute-oprema.md
   - Hribi:
       - hribi/index.md
       - Po bližnjici na rob smrti: hribi/rob-smrti.md
