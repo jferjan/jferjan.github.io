@@ -103,6 +103,17 @@ Kot del GravGrav Collective zgodbe sem se udeležil nepozabne kolesarske avantur
 
 [![Loose at the Coast 2026 | Bikepacking avantura po Krasu (neuradni video)](https://lh3.googleusercontent.com/pw/AP1GczM6pSvqqn70FcSGbrzpvFSCTg5sy82BN6i901R-BnFeLdoH6Zsn2hgqnFYgO7ooTUJypSqWx0n_iNH94tqnpHYfX3cwM9yqf6AsWiA8EmW7Dev8-_ibWE4T6qp2ng8tgqrPUpfJzswImaDMf0JsgRajgw=w1470-h828-s-no-gm?authuser=0 "Loose at the Coast 2026 | Bikepacking avantura po Krasu (neuradni video)"){referrerpolicy="no-referrer"}](https://youtu.be/ZSOeV71xSf0)
 
-- Loose at the Coast - Shakeout ride - [:material-bike-fast: GPX](https://www.komoot.com/tour/2877525787)
+- Loose at the Coast 2026 - Shakeout ride - [:material-bike-fast: GPX](https://www.komoot.com/tour/2877525787)
 - Loose at the Coast 2026 - Day 1 - [:material-bike-fast: GPX](https://www.komoot.com/tour/2879711504)
 - Loose at the Coast 2026 - Day 2 - [:material-bike-fast: GPX](https://www.komoot.com/tour/2882082817)
+
+### Loose in the Woods
+
+Avgusta 2026 sem se udeležil tudi tridnevne avanture Loose in the Woods.
+
+- [:fontawesome-regular-images: FOTO utrinki](https://photos.app.goo.gl/MncQLcbxsvYZaF4w8).
+- [:fontawesome-regular-images: Reportaža na GravGrav.cc](https://gravgrav.cc/en/article/loose-in-the-woods-2026)
+
+- Loose in the Woods 2026 - Day 1 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3158158800)
+- Loose in the Woods 2026 - Day 2 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3161362750)
+- Loose in the Woods 2026 - Day 3 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3164474683)
