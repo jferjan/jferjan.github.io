@@ -1,4 +1,4 @@
-# Zdravo, sem Jaka! 👋
+# Zdravo, sem Jaka!
 
 ![Jaka](img/jaka.png)
 

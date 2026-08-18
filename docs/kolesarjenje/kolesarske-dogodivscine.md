@@ -111,7 +111,7 @@ Kot del GravGrav Collective zgodbe sem se udeležil nepozabne kolesarske avantur
 
 Avgusta 2026 sem se udeležil tudi tridnevne avanture Loose in the Woods.
 
-- [:fontawesome-regular-images: FOTO utrinki](https://photos.app.goo.gl/MncQLcbxsvYZaF4w8).
+- [:fontawesome-regular-images: FOTO utrinki](https://photos.app.goo.gl/MncQLcbxsvYZaF4w8)
 - [:fontawesome-regular-images: Reportaža na GravGrav.cc](https://gravgrav.cc/en/article/loose-in-the-woods-2026)
 
 - Loose in the Woods 2026 - Day 1 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3158158800)
