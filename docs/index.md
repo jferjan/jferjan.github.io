@@ -6,7 +6,7 @@
 
 Na Ministrstvu, pristojnem za upravljanje IKT sistemov, se posvečam storitvam spletnega gostovanja ter skrbi za stabilnost in varnost digitalne infrastrukture. 
 
-Prosti čas preživljam z družino. Raziskujem [svet tehnologije](it/index.md), rad [kolesarim](kolesarjenje/index.md), uživam na [morju](potapljanje/index.md) in v [hribih](hribi/index.md).
+Prosti čas preživljam z družino in prijatelji. Raziskujem [svet tehnologije](it/index.md), rad [kolesarim](kolesarjenje/index.md), uživam na [morju](potapljanje/index.md) in v [hribih](hribi/index.md).
 
 ---
 
