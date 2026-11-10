@@ -39,6 +39,13 @@ Prigoda, ki bo najbolj ostala v spominu je spanje na plaži pod šotorskim krilo
 ### S kolesi na absolventski izlet na Kreto
 Verjetno najbolj nekolesarski kolesarski izlet. Kolo je služilo bolj kot nadomestek oz dopolnilo javnega prevoza. Rešitev "zadnje milje". Do sedaj smo imeli prevoze po Grčiji naštudirane že do potankosti in odločitev, da gremo eno leto pred absolventom na predabsolventski izlet v lastni organizaciji in s kolesi je bila skoraj samoumevna. 
 
+### Halkidiki
+Oktober 2026. Tokrat furamo štirje: Klemen, [Aleš](https://www.mtb.si/intervjuji/na-verigi-ales-majeric/), Miha in moja malenkost. V LJ se na pivu dokončno odločimo, da iz Soluna ne bomo zavili proti Ohridu (prvotni plan) temveč bomo raje napadli tri prste znane pod imenom [Halkidiki](https://sl.wikipedia.org/wiki/Halkidika). Odločitev je bila definitivno prava. Sonce, morje, prijetnih 25 stopinj, nikjer nobene gneče. Traso splaniramo za šoder varianto, tako da smo, kjer se le da, izven prometnih cest in na bolj odročnih poteh in makadamih. Cena, ki jo za to plačamo, je občasno porivanje koles v kakšen strm klanec, kar pa hitro odplačajo čudoviti razgledi. Krog (cca 600km in 6000 višincev) zaključimo v dobrem tednu dni.
+
+![Halkidiki](https://lh3.googleusercontent.com/pw/AP1GczN-2CxbKi0dOGZjS5udCeKXBWoorFQY9yKE1YtZQkhpE36h8IJVlhElRK5PogRFQI0fCfLLcOYm5F-ekb2IDEB8tjbLPmucCD2Z_-ngNYZ3a6BOJir7y74unb6pwhFYxVFIAvpCWWLcvB4o-IzrCgyooA=w1623-h914-s-no-gm?authuser=0 "Halkidikil"){referrerpolicy="no-referrer"}
+
+[:fontawesome-regular-images: FOTO](https://photos.app.goo.gl/Vc7qtjuASEDD94Cr9)&emsp;[:material-bike-fast: GPX, 1. dan](https://www.komoot.com/tour/3324135400)&emsp;[:material-bike-fast: GPX, 2. dan](https://www.komoot.com/tour/3326767674)&emsp;[:material-bike-fast: GPX, 3. dan](https://www.komoot.com/tour/3330038448)&emsp;[:material-bike-fast: GPX, 4. dan](https://www.komoot.com/tour/3331763838)&emsp;[:material-bike-fast: GPX, 5. dan](https://www.komoot.com/tour/3333775111)&emsp;[:material-bike-fast: GPX, 6. dan](https://www.komoot.com/tour/3335620238)&emsp;[:material-bike-fast: GPX, 7. dan](https://www.komoot.com/tour/3337145895)&emsp;[:material-bike-fast: GPX, 8. dan](https://www.komoot.com/tour/3338477607)
+
 ## Do Dubrovnika
 Duo izlet, jaz in Mare. 10 dni do tja in nazaj. Pot do Dubrovnika naju vodi čez otoke, družbo pa nama dela zvočnik domače izdelave montiran na moj prednji prtljažnik. Kondicijsko kar zahtevna pot, saj se izkaže, da so vse ceste na Jadranu speljane po sredini otokov. V bistvu je vsak otok hrib na katerega se vsaj enkrat vzpneš. 
 
