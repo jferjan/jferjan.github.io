@@ -117,3 +117,10 @@ Avgusta 2026 sem se udeležil tudi tridnevne avanture Loose in the Woods.
 - Loose in the Woods 2026 - Day 1 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3158158800)
 - Loose in the Woods 2026 - Day 2 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3161362750)
 - Loose in the Woods 2026 - Day 3 - [:material-bike-fast: GPX](https://www.komoot.com/tour/3164474683)
+
+### Ride Loose for Max
+
+Konec sezone 2026 smo se z druščino ponovno sestali. Tokrat žal na [spominski vožnji za Maxa](https://www.mtb.si/novice/ride-loose-for-max/).
+Max, hvala za vse, kar si nam dal. Se bom potrudil vsaj del tega predati naprej.
+
+- Ride Loose for Max - [:material-bike-fast: GPX](https://www.komoot.com/tour/3352986449)
